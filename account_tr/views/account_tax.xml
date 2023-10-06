@@ -1,0 +1,117 @@
+<odoo>
+    <!-- Custom views, actions, and menu items for Tax Office module -->
+    <data>
+        <!-- Customization of tax form view to include code field -->
+        <record id="view_tax_form" model="ir.ui.view">
+            <field name="name">account.tax.form.account_tr</field>
+            <field name="model">account.tax</field>
+            <field name="inherit_id" ref="account.view_tax_form"/>
+            <field name="arch" type="xml">
+                <!-- Add the code field after the amount field -->
+                <xpath expr="//div/field[@name='amount']/.." position="after">
+                    <field name="code"/>
+                </xpath>
+            </field>
+        </record>
+
+        <!-- Customization of partner form view to include tax office field -->
+        <record id="view_partner_form" model="ir.ui.view">
+            <field name="name">res.partner.tax.office.inherit</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="account.view_partner_property_form"/>
+            <field name="arch" type="xml">
+                <!-- Add the tax_office_id field after property_account_position_id field -->
+                <field name="property_account_position_id" position="after">
+                    <field name="tax_office_id" class="oe_inline"/>
+                </field>
+            </field>
+        </record>
+
+        <!-- Customization of company form view to include tax office field -->
+        <record id="company_form_tax_office" model="ir.ui.view">
+            <field name="name">res.company.form.tax.office.inherit</field>
+            <field name="model">res.company</field>
+            <field name="inherit_id" ref="base.view_company_form"/>
+            <field name="arch" type="xml">
+                <!-- Add the tax_office_id field after vat field -->
+                <field name="vat" position="after">
+                    <field name="tax_office_id"/>
+                </field>
+            </field>
+        </record>
+
+        <!-- Custom search view for tax office model -->
+        <record id="view_tax_office_search" model="ir.ui.view">
+            <field name="name">account.tax.office.search</field>
+            <field name="model">account.tax.office</field>
+            <field name="arch" type="xml">
+                <search string="Tax Office">
+                    <!-- Filter options for searching tax offices -->
+                    <field name="name" filter_domain="['|', ('name','ilike',self), ('code','ilike',self)]" string="Tax Office"/>
+                    <field name="state_id"/>
+                </search>
+            </field>
+        </record>
+
+        <!-- Custom tree view for tax office model -->
+        <record id="view_tax_office_tree" model="ir.ui.view">
+            <field name="name">account.tax.office.tree</field>
+            <field name="model">account.tax.office</field>
+            <field name="arch" type="xml">
+                <!-- Tree view for displaying tax offices -->
+                <tree string="account.tax.office" create="1">
+                    <field name="state_id"/>
+                    <field name="name"/>
+                    <field name="code"/>
+                    <field name="active"/>
+                </tree>
+            </field>
+        </record>
+
+        <!-- Custom form view for tax office model -->
+        <record id="view_tax_office_form" model="ir.ui.view">
+            <field name="name">account.tax.office.form</field>
+            <field name="model">account.tax.office</field>
+            <field name="arch" type="xml">
+                <!-- Form view for editing tax office details -->
+                <form string="Tax Office">
+                    <group>
+                        <group col="4" colspan="2">
+                            <field name="name"/>
+                            <field name="code"/>
+                            <field name="state_id"/>
+                            <field name="active"/>
+                        </group>
+                    </group>
+                </form>
+            </field>
+        </record>
+
+        <!-- Custom action for opening tax office view -->
+        <record id="action_tax_office" model="ir.actions.act_window">
+            <field name="name">Tax Office</field>
+            <field name="res_model">account.tax.office</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <!-- Menu item for Tax Offices under the Accounts menu -->
+        <menuitem name="Tax Offices" id="menu_tax_office" action="action_tax_office"
+                  parent="account.account_account_menu" sequence="2"/>
+    </data>
+
+<data>
+    <!-- Inheriting and extending an existing view for res.partner form -->
+    <record id="view_partner_form_inherit" model="ir.ui.view">
+        <field name="name">res.partner.tax.office.inherit</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="account_tr.view_partner_form"/>
+        <field name="arch" type="xml">
+            <!-- Insert a new field 'tax_office_id' before the 'vat' field -->
+            <field name="vat" position="before">
+                <field name="tax_office_id" position="move"/>
+            </field>
+        </field>
+    </record>
+</data>
+
+</odoo>

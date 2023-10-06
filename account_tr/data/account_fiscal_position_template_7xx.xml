@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="fpt_ihrac_kayitli_satislar" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">İhraç Kayıtlı Satışlar</field>
+            <field name="code">701</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exportregistered"/>
+            <field name="note">İhraç Kayıtlı Satışlar - 3065 Sayılı KDV Kanununun 11/1-c maddesi kapsamında ihraç kaydıyla satış yapıldığından KDV tahsil edilmemiştir.</field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_diib_gecici_kabul_rejimi_satislari" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">DİİB ve Geçici Kabul Rejimi Kapsamındaki Satışlar</field>
+            <field name="code">702</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exportregistered"/>
+            <field name="note">DİİB ve Geçici Kabul Rejimi Kapsamındaki Satışlar</field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+
+    </data>
+</odoo>

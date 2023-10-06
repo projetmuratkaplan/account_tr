@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Sale -->
+        <record id="tax_satis_kdv_20" model="account.tax.template">
+            <field name="chart_template_id" ref="l10ntr_tek_duzen_hesap"/>
+            <field name="sequence">100</field>
+            <field name="name">Satış KDV %20</field>
+            <field name="code">0015</field>
+            <field name="amount">20</field>
+            <field name="tax_rate">20</field>
+            <field name="witholding_rate"></field>
+            <field name="amount_type">percent</field>
+            <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('tr391020'),
+                }),
+            ]"/>
+            <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('tr191120'),
+                }),
+            ]"/>
+            <field name="description">Satış KDV %20</field>
+            <field name="tax_group_id" ref="tax_group_kdv"/>
+            <field name="type_tax_use">sale</field>
+            <field name="price_include" eval="False"/>
+        </record>
+        <record id="tax_satis_kdv_10" model="account.tax.template">
+            <field name="chart_template_id" ref="l10ntr_tek_duzen_hesap"/>
+            <field name="sequence">101</field>
+            <field name="name">Satış KDV %10</field>
+            <field name="code">0015</field>
+            <field name="amount">10</field>
+            <field name="tax_rate">10</field>
+            <field name="witholding_rate"></field>
+            <field name="amount_type">percent</field>
+            <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('tr391010'),
+                }),
+            ]"/>
+            <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('tr191110'),
+                }),
+            ]"/>
+            <field name="description">Satış KDV %10</field>
+            <field name="tax_group_id" ref="tax_group_kdv"/>
+            <field name="type_tax_use">sale</field>
+            <field name="price_include" eval="False"/>
+        </record>
+        <record id="tax_satis_kdv_1" model="account.tax.template">
+            <field name="chart_template_id" ref="l10ntr_tek_duzen_hesap"/>
+            <field name="sequence">102</field>
+            <field name="name">Satış KDV %1</field>
+            <field name="code">0015</field>
+            <field name="amount">1</field>
+            <field name="tax_rate">1</field>
+            <field name="witholding_rate"></field>
+            <field name="amount_type">percent</field>
+            <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('tr391001'),
+                }),
+            ]"/>
+            <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('tr191101'),
+                }),
+            ]"/>
+            <field name="description">Satış KDV %1</field>
+            <field name="tax_group_id" ref="tax_group_kdv"/>
+            <field name="type_tax_use">sale</field>
+            <field name="price_include" eval="False"/>
+        </record>
+
+        <record id="tax_satis_kdv_dahil_20" model="account.tax.template">
+            <field name="chart_template_id" ref="l10ntr_tek_duzen_hesap"/>
+            <field name="sequence">201</field>
+            <field name="name">Satış KDV %20 (Dahil)</field>
+            <field name="code">0015</field>
+            <field name="amount">20</field>
+            <field name="tax_rate">20</field>
+            <field name="witholding_rate"></field>
+            <field name="amount_type">percent</field>
+            <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('tr391020'),
+                }),
+            ]"/>
+            <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('tr191120'),
+                }),
+            ]"/>
+            <field name="description">Satış KDV %20 (Dahil))</field>
+            <field name="tax_group_id" ref="tax_group_kdv"/>
+            <field name="type_tax_use">sale</field>
+            <field name="price_include" eval="True"/>
+        </record>
+        <record id="tax_satis_kdv_dahil_10" model="account.tax.template">
+            <field name="chart_template_id" ref="l10ntr_tek_duzen_hesap"/>
+            <field name="sequence">202</field>
+            <field name="name">Satış KDV %10 (Dahil)</field>
+            <field name="code">0015</field>
+            <field name="amount">10</field>
+            <field name="tax_rate">10</field>
+            <field name="witholding_rate"></field>
+            <field name="amount_type">percent</field>
+            <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('tr391010'),
+                }),
+            ]"/>
+            <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('tr191110'),
+                }),
+            ]"/>
+            <field name="description">Satış KDV %10 (Dahil)</field>
+            <field name="tax_group_id" ref="tax_group_kdv"/>
+            <field name="type_tax_use">sale</field>
+            <field name="price_include" eval="True"/>
+        </record>
+        <record id="tax_satis_kdv_dahil_1" model="account.tax.template">
+            <field name="chart_template_id" ref="l10ntr_tek_duzen_hesap"/>
+            <field name="sequence">203</field>
+            <field name="name">Satış KDV %1 (Dahil)</field>
+            <field name="code">0015</field>
+            <field name="amount">1</field>
+            <field name="tax_rate">1</field>
+            <field name="witholding_rate"></field>
+            <field name="amount_type">percent</field>
+            <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('tr391001'),
+                }),
+            ]"/>
+            <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('tr191101'),
+                }),
+            ]"/>
+            <field name="description">Satış KDV %1 (Dahil)</field>
+            <field name="tax_group_id" ref="tax_group_kdv"/>
+            <field name="type_tax_use">sale</field>
+            <field name="price_include" eval="True"/>
+        </record>
+
+        <record id="tax_satis_kdv_18" model="account.tax.template">
+            <field name="chart_template_id" ref="l10ntr_tek_duzen_hesap"/>
+            <field name="sequence">100</field>
+            <field name="name">Satış KDV %18</field>
+            <field name="code">0015</field>
+            <field name="amount">18</field>
+            <field name="tax_rate">18</field>
+            <field name="witholding_rate"></field>
+            <field name="amount_type">percent</field>
+            <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('tr391018'),
+                }),
+            ]"/>
+            <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('tr191118'),
+                }),
+            ]"/>
+            <field name="description">Satış KDV %18</field>
+            <field name="tax_group_id" ref="tax_group_kdv"/>
+            <field name="type_tax_use">sale</field>
+            <field name="price_include" eval="False"/>
+        </record>
+        <record id="tax_satis_kdv_8" model="account.tax.template">
+            <field name="chart_template_id" ref="l10ntr_tek_duzen_hesap"/>
+            <field name="sequence">101</field>
+            <field name="name">Satış KDV %8</field>
+            <field name="code">0015</field>
+            <field name="amount">8</field>
+            <field name="tax_rate">8</field>
+            <field name="witholding_rate"></field>
+            <field name="amount_type">percent</field>
+            <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('tr391008'),
+                }),
+            ]"/>
+            <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('tr191108'),
+                }),
+            ]"/>
+            <field name="description">Satış KDV %8</field>
+            <field name="tax_group_id" ref="tax_group_kdv"/>
+            <field name="type_tax_use">sale</field>
+            <field name="price_include" eval="False"/>
+        </record>
+        <record id="tax_satis_kdv_dahil_18" model="account.tax.template">
+            <field name="chart_template_id" ref="l10ntr_tek_duzen_hesap"/>
+            <field name="sequence">201</field>
+            <field name="name">Satış KDV %18 (Dahil)</field>
+            <field name="code">0015</field>
+            <field name="amount">18</field>
+            <field name="tax_rate">18</field>
+            <field name="witholding_rate"></field>
+            <field name="amount_type">percent</field>
+            <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('tr391018'),
+                }),
+            ]"/>
+            <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('tr191118'),
+                }),
+            ]"/>
+            <field name="description">Satış KDV %18 (Dahil))</field>
+            <field name="tax_group_id" ref="tax_group_kdv"/>
+            <field name="type_tax_use">sale</field>
+            <field name="price_include" eval="True"/>
+        </record>
+        <record id="tax_satis_kdv_dahil_8" model="account.tax.template">
+            <field name="chart_template_id" ref="l10ntr_tek_duzen_hesap"/>
+            <field name="sequence">202</field>
+            <field name="name">Satış KDV %8 (Dahil)</field>
+            <field name="code">0015</field>
+            <field name="amount">8</field>
+            <field name="tax_rate">8</field>
+            <field name="witholding_rate"></field>
+            <field name="amount_type">percent</field>
+            <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('tr391008'),
+                }),
+            ]"/>
+            <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('tr191108'),
+                }),
+            ]"/>
+            <field name="description">Satış KDV %8 (Dahil)</field>
+            <field name="tax_group_id" ref="tax_group_kdv"/>
+            <field name="type_tax_use">sale</field>
+            <field name="price_include" eval="True"/>
+        </record>
+
+        <!-- Purchase -->
+        <record id="tax_alim_kdv_20" model="account.tax.template">
+            <field name="chart_template_id" ref="l10ntr_tek_duzen_hesap"/>
+            <field name="sequence">301</field>
+            <field name="name">Alım KDV %20</field>
+            <field name="code">0015</field>
+            <field name="amount">20</field>
+            <field name="tax_rate">20</field>
+            <field name="witholding_rate"></field>
+            <field name="amount_type">percent</field>
+            <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('tr191020'),
+                }),
+            ]"/>
+            <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('tr391120'),
+                }),
+            ]"/>
+            <field name="description">Alım KDV %18</field>
+            <field name="tax_group_id" ref="tax_group_kdv"/>
+            <field name="type_tax_use">purchase</field>
+            <field name="price_include" eval="False"/>
+        </record>
+        <record id="tax_alim_kdv_10" model="account.tax.template">
+            <field name="chart_template_id" ref="l10ntr_tek_duzen_hesap"/>
+            <field name="sequence">302</field>
+            <field name="name">Alım KDV %10</field>
+            <field name="code">0015</field>
+            <field name="amount">10</field>
+            <field name="tax_rate">10</field>
+            <field name="witholding_rate"></field>
+            <field name="amount_type">percent</field>
+            <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('tr191010'),
+                }),
+            ]"/>
+            <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('tr391110'),
+                }),
+            ]"/>
+            <field name="description">Alım KDV %10</field>
+            <field name="tax_group_id" ref="tax_group_kdv"/>
+            <field name="type_tax_use">purchase</field>
+            <field name="price_include" eval="False"/>
+        </record>
+        <record id="tax_alim_kdv_1" model="account.tax.template">
+            <field name="chart_template_id" ref="l10ntr_tek_duzen_hesap"/>
+            <field name="sequence">303</field>
+            <field name="name">Alım KDV %1</field>
+            <field name="code">0015</field>
+            <field name="amount">1</field>
+            <field name="tax_rate">1</field>
+            <field name="witholding_rate"></field>
+            <field name="amount_type">percent</field>
+            <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('tr191001'),
+                }),
+            ]"/>
+            <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('tr391101'),
+                }),
+            ]"/>
+            <field name="description">Alım KDV %1</field>
+            <field name="tax_group_id" ref="tax_group_kdv"/>
+            <field name="type_tax_use">purchase</field>
+            <field name="price_include" eval="False"/>
+        </record>
+
+        <record id="tax_alim_kdv_dahil_20" model="account.tax.template">
+            <field name="chart_template_id" ref="l10ntr_tek_duzen_hesap"/>
+            <field name="sequence">401</field>
+            <field name="name">Alım KDV %20 (Dahil)</field>
+            <field name="code">0015</field>
+            <field name="amount">20</field>
+            <field name="tax_rate">20</field>
+            <field name="witholding_rate"></field>
+            <field name="amount_type">percent</field>
+            <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('tr191020'),
+                }),
+            ]"/>
+            <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('tr391120'),
+                }),
+            ]"/>
+            <field name="description">Alım KDV %18 (Dahil)</field>
+            <field name="tax_group_id" ref="tax_group_kdv"/>
+            <field name="type_tax_use">purchase</field>
+            <field name="price_include" eval="True"/>
+        </record>
+        <record id="tax_alim_kdv_dahil_10" model="account.tax.template">
+            <field name="chart_template_id" ref="l10ntr_tek_duzen_hesap"/>
+            <field name="sequence">402</field>
+            <field name="name">Alım KDV %10 (Dahil)</field>
+            <field name="code">0015</field>
+            <field name="amount">10</field>
+            <field name="tax_rate">10</field>
+            <field name="witholding_rate"></field>
+            <field name="amount_type">percent</field>
+            <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('tr191010'),
+                }),
+            ]"/>
+            <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('tr391110'),
+                }),
+            ]"/>
+            <field name="description">Alım KDV %10 (Dahil)</field>
+            <field name="tax_group_id" ref="tax_group_kdv"/>
+            <field name="type_tax_use">purchase</field>
+            <field name="price_include" eval="True"/>
+        </record>
+        <record id="tax_alim_kdv_dahil_1" model="account.tax.template">
+            <field name="chart_template_id" ref="l10ntr_tek_duzen_hesap"/>
+            <field name="sequence">403</field>
+            <field name="name">Alım KDV %1 (Dahil)</field>
+            <field name="code">0015</field>
+            <field name="amount">1</field>
+            <field name="tax_rate">1</field>
+            <field name="witholding_rate"></field>
+            <field name="amount_type">percent</field>
+            <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('tr191001'),
+                }),
+            ]"/>
+            <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('tr391101'),
+                }),
+            ]"/>
+            <field name="description">Alım KDV %1 (Dahil)</field>
+            <field name="tax_group_id" ref="tax_group_kdv"/>
+            <field name="type_tax_use">purchase</field>
+            <field name="price_include" eval="True"/>
+        </record>
+
+        <record id="tax_alim_kdv_18" model="account.tax.template">
+            <field name="chart_template_id" ref="l10ntr_tek_duzen_hesap"/>
+            <field name="sequence">301</field>
+            <field name="name">Alım KDV %18</field>
+            <field name="code">0015</field>
+            <field name="amount">18</field>
+            <field name="tax_rate">18</field>
+            <field name="witholding_rate"></field>
+            <field name="amount_type">percent</field>
+            <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('tr191018'),
+                }),
+            ]"/>
+            <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('tr391118'),
+                }),
+            ]"/>
+            <field name="description">Alım KDV %18</field>
+            <field name="tax_group_id" ref="tax_group_kdv"/>
+            <field name="type_tax_use">purchase</field>
+            <field name="price_include" eval="False"/>
+        </record>
+        <record id="tax_alim_kdv_8" model="account.tax.template">
+            <field name="chart_template_id" ref="l10ntr_tek_duzen_hesap"/>
+            <field name="sequence">302</field>
+            <field name="name">Alım KDV %8</field>
+            <field name="code">0015</field>
+            <field name="amount">8</field>
+            <field name="tax_rate">8</field>
+            <field name="witholding_rate"></field>
+            <field name="amount_type">percent</field>
+            <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('tr191008'),
+                }),
+            ]"/>
+            <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('tr391108'),
+                }),
+            ]"/>
+            <field name="description">Alım KDV %8</field>
+            <field name="tax_group_id" ref="tax_group_kdv"/>
+            <field name="type_tax_use">purchase</field>
+            <field name="price_include" eval="False"/>
+        </record>
+        <record id="tax_alim_kdv_dahil_18" model="account.tax.template">
+            <field name="chart_template_id" ref="l10ntr_tek_duzen_hesap"/>
+            <field name="sequence">401</field>
+            <field name="name">Alım KDV %18 (Dahil)</field>
+            <field name="code">0015</field>
+            <field name="amount">18</field>
+            <field name="tax_rate">18</field>
+            <field name="witholding_rate"></field>
+            <field name="amount_type">percent</field>
+            <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('tr191018'),
+                }),
+            ]"/>
+            <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('tr391118'),
+                }),
+            ]"/>
+            <field name="description">Alım KDV %18 (Dahil)</field>
+            <field name="tax_group_id" ref="tax_group_kdv"/>
+            <field name="type_tax_use">purchase</field>
+            <field name="price_include" eval="True"/>
+        </record>
+        <record id="tax_alim_kdv_dahil_8" model="account.tax.template">
+            <field name="chart_template_id" ref="l10ntr_tek_duzen_hesap"/>
+            <field name="sequence">402</field>
+            <field name="name">Alım KDV %8 (Dahil)</field>
+            <field name="code">0015</field>
+            <field name="amount">8</field>
+            <field name="tax_rate">8</field>
+            <field name="witholding_rate"></field>
+            <field name="amount_type">percent</field>
+            <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('tr191008'),
+                }),
+            ]"/>
+            <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('tr391108'),
+                }),
+            ]"/>
+            <field name="description">Alım KDV %8 (Dahil)</field>
+            <field name="tax_group_id" ref="tax_group_kdv"/>
+            <field name="type_tax_use">purchase</field>
+            <field name="price_include" eval="True"/>
+        </record>
+
+        <!-- Stopaj -->
+        <record id="tax_alim_kira_stopaji_20" model="account.tax.template">
+            <field name="chart_template_id" ref="l10ntr_tek_duzen_hesap"/>
+            <field name="sequence">601</field>
+            <field name="name">Alım Kira Stopajı (%20)</field>
+            <field name="code">041</field>
+            <field name="amount">-20</field>
+            <field name="tax_rate">20</field>
+            <field name="witholding_rate"></field>
+            <field name="amount_type">percent</field>
+            <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('tr360001'),
+                }),
+            ]"/>
+            <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('tr360001'),
+                }),
+            ]"/>
+            <field name="description">Alım Kira Stopajı (%20)</field>
+            <field name="tax_group_id" ref="tax_group_gelir_vergisi_stopaji"/>
+            <field name="type_tax_use">purchase</field>
+            <field name="price_include" eval="False"/>
+        </record>
+        <record id="tax_alim_sm_stopaji_20" model="account.tax.template">
+            <field name="chart_template_id" ref="l10ntr_tek_duzen_hesap"/>
+            <field name="sequence">701</field>
+            <field name="name">Alım S.M. Stopajı (%20)</field>
+            <field name="code">022</field>
+            <field name="amount">-20</field>
+            <field name="tax_rate">20</field>
+            <field name="witholding_rate"></field>
+            <field name="amount_type">percent</field>
+            <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('tr360002'),
+                }),
+            ]"/>
+            <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('tr360002'),
+                }),
+            ]"/>
+            <field name="description">Alım S.M. Stopajı (%20)</field>
+            <field name="tax_group_id" ref="tax_group_gelir_vergisi_stopaji"/>
+            <field name="type_tax_use">purchase</field>
+            <field name="price_include" eval="False"/>
+        </record>
+
+    </data>
+</odoo>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="fpt_imalat_sanayiine_yonetlik_yatirim_tesvik_belgesi_kapsamindaki_isler"
+                model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">İMALAT SANAYİİNE YÖNELİK YATIRIM TEŞVİK BELGESİ KAPSAMINDAKİ İNŞAAT İŞLERİ</field>
+            <field name="code">442</field>
+            <field name="note">İMALAT SANAYİİNE YÖNELİK YATIRIM TEŞVİK BELGESİ KAPSAMINDAKİ İNŞAAT İŞLERİ</field>
+        </record>
+
+        <record id="fpt_turakkim_gaz_boruhatti_projesine_isliskin_anlasmanin_9_h_maddesi"
+                model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">TürkAkım Gaz Boru Hattı Projesine İlişkin Anlaşmanın (9/h) Maddesi Kapsamında Alınan
+                Teslim ve Hizmetler
+            </field>
+            <field name="code">443</field>
+            <field name="note">TürkAkım Gaz Boru Hattı Projesine İlişkin Anlaşmanın (9/h) Maddesi Kapsamında Alınan
+                Teslim ve Hizmetler
+            </field>
+        </record>
+        <record id="fpt_450_digerleri"
+                model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Diğerleri</field>
+            <field name="code">450</field>
+            <field name="note">Diğerleri</field>
+        </record>
+    </data>
+</odoo>

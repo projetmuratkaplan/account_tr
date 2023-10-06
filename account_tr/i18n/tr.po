@@ -1,0 +1,1573 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4\n"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_hizmet_ihracati
+msgid "11/1-a Hizmet İhracatı"
+msgstr "11/1-a Hizmet İhracatı"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_mal_ihracati
+msgid "11/1-a Mal İhracatı"
+msgstr "11/1-a Mal İhracatı"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_roaming_hizmetleri
+msgid "11/1-a Roaming Hizmetleri"
+msgstr "11/1-a Roaming Hizmetleri"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_serbest_bolge_icin_yapilan_fason_hizmetler
+msgid "11/1-a Serbest Bölgelerdeki Müşteriler İçin Yapılan Fason Hizmetler"
+msgstr "11/1-a Serbest Bölgelerdeki Müşteriler İçin Yapılan Fason Hizmetler"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_turkiyede_ikamet_etmeyenlere_yapilan_teslimler
+msgid ""
+"11/1-a Türkiye'de İkamet Etmeyenlere Özel Fatura ile Yapılan Teslimler "
+"(Bavul Ticareti)"
+msgstr ""
+"11/1-a Türkiye'de İkamet Etmeyenlere Özel Fatura ile Yapılan Teslimler "
+"(Bavul Ticareti)"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_uluslararasi_tasimacilik
+msgid "14/1 Uluslararası Taşımacılık"
+msgstr "14/1 Uluslararası Taşımacılık"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_transit_ve_gumruk_antrepo_rejimleri
+msgid ""
+"16/1-c Transit ve Gümrük Antrepo Rejimleri İle Geçici Depolama ve Serbest "
+"Bölge\n"
+"                Hükümlerinin Uygulandığı Malların Teslimi"
+msgstr ""
+"16/1-c Transit ve Gümrük Antrepo Rejimleri İle Geçici Depolama ve Serbest "
+"Bölge\n"
+"                Hükümlerinin Uygulandığı Malların Teslimi"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_kultur_egitim_islemleri
+msgid "17/1 Kültür ve Eğitim Amacı Taşıyan İşlemler"
+msgstr "17/1 Kültür ve Eğitim Amacı Taşıyan İşlemler"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_saglik_cevre_sosyal_yardim_islemleri
+msgid "17/2-a Sağlık, Çevre Ve Sosyal Yardım Amaçlı İşlemler"
+msgstr "17/2-a Sağlık, Çevre Ve Sosyal Yardım Amaçlı İşlemler"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_metal_plastik_lastik_kaucuk_kagit_cam_hurda_atik
+msgid ""
+"17/4-g Metal Plastik, Lastik, Kauçuk, Kağit, Cam Hurda Ve Atıkların Teslimi"
+msgstr ""
+"17/4-g Metal Plastik, Lastik, Kauçuk, Kağit, Cam Hurda Ve Atıkların Teslimi"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_leasing_devir_kiralama
+msgid ""
+"17/4-y Taşınmazların Finansal Kiralama Şirketlerine Devri, Finansal "
+"Kiralama Şirketi\n"
+"                Tarafından Devredene Kiralanması ve Devri"
+msgstr ""
+"17/4-y Taşınmazların Finansal Kiralama Şirketlerine Devri, Finansal "
+"Kiralama Şirketi\n"
+"                Tarafından Devredene Kiralanması ve Devri"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_3996_3359_652_sayili_kanuna_gore
+msgid ""
+"3996 Sayılı Kanuna Göre Yap-İşlet-Devret Modeli Çerçevesinde "
+"Gerçekleştirilecek Projeler,\n"
+"                3359 Sayılı Kanuna Göre Kiralama Karşılığı Yaptırılan "
+"Sağlık Tesislerine İlişkin Projeler ve 652 Sayılı\n"
+"                Kanun Hükmünde Kararnameye Göre Kiralama Karşılığı "
+"Yaptırılan Eğitim Öğretim Tesislerine İlişkin\n"
+"                Projelere İlişkin Teslim ve Hizmetler."
+msgstr ""
+"3996 Sayılı Kanuna Göre Yap-İşlet-Devret Modeli Çerçevesinde "
+"Gerçekleştirilecek Projeler,\n"
+"                3359 Sayılı Kanuna Göre Kiralama Karşılığı Yaptırılan "
+"Sağlık Tesislerine İlişkin Projeler ve 652 Sayılı\n"
+"                Kanun Hükmünde Kararnameye Göre Kiralama Karşılığı "
+"Yaptırılan Eğitim Öğretim Tesislerine İlişkin\n"
+"                Projelere İlişkin Teslim ve Hizmetler."
+
+#. module: account_tr
+#: model:account.tax.group,name:account_tr.tax_group_4961_banka_sigorta_muameleleri_vergisi
+msgid "4961 Banka Sigorta Muameleleri Vergisi"
+msgstr "4961 Banka Sigorta Muameleleri Vergisi"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_idare_kurum_kurulus_diger_hizmetler
+msgid ""
+"5018 SAYILI KANUNA EKLİ CETVELLERDEKİ İDARE, KURUM VE KURUŞLARA YAPILAN "
+"DİĞER HİZMETLER\n"
+"                *GT 117-Bölüm (3.2.13)+"
+msgstr ""
+"5018 SAYILI KANUNA EKLİ CETVELLERDEKİ İDARE, KURUM VE KURUŞLARA YAPILAN "
+"DİĞER HİZMETLER\n"
+"                *GT 117-Bölüm (3.2.13)+"
+
+#. module: account_tr
+#: model:account.tax.group,name:account_tr.tax_group_5035_damga_vergisi
+msgid "5035 Sayılı Kanuna Göre Damga Vergisi"
+msgstr "5035 Sayılı Kanuna Göre Damga Vergisi"
+
+#. module: account_tr
+#: model:account.tax.group,name:account_tr.tax_group_5035_ozel_iletisim_vergisi
+msgid "5035 Sayılı Kanuna Göre Özel İletişim Vergisi"
+msgstr "5035 Sayılı Kanuna Göre Özel İletişim Vergisi"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_5300_sayili_kanuna_gore_duzenlenen
+msgid ""
+"5300 Sayılı Kanuna Göre Düzenlenen Ürün Senetlerinin İhtisas/Ticaret "
+"Borsaları\n"
+"                Aracılığıyla İlk Teslimi"
+msgstr ""
+"5300 Sayılı Kanuna Göre Düzenlenen Ürün Senetlerinin İhtisas/Ticaret "
+"Borsaları\n"
+"                Aracılığıyla İlk Teslimi"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_5300_sayili_kanuna_gore_duzenlenen_urun_senetlerinin_ihtisas_ticaret_borsalari
+msgid ""
+"5300 Sayılı Kanuna Göre Düzenlenen Ürün Senetlerinin İhtisas/Ticaret "
+"Borsaları\n"
+"                Aracılığıyla İlk Tesliminden Sonraki Teslimi"
+msgstr ""
+"5300 Sayılı Kanuna Göre Düzenlenen Ürün Senetlerinin İhtisas/Ticaret "
+"Borsaları\n"
+"                Aracılığıyla İlk Tesliminden Sonraki Teslimi"
+
+#. module: account_tr
+#: model:ir.model,name:account_tr.model_account_account
+msgid "Account"
+msgstr "Hesap"
+
+#. module: account_tr
+#: model:ir.model,name:account_tr.model_account_chart_template
+msgid "Account Chart Template"
+msgstr "Hesap Planı Şablonu"
+
+#. module: account_tr
+#: model:ir.model,name:account_tr.model_account_tax_office_import
+msgid "Account Tax Office Import"
+msgstr "Vergi Dairesi İçe Aktarım"
+
+#. module: account_tr
+#: model:ir.model.fields,help:account_tr.field_account_account__account_type
+msgid ""
+"Account Type is used for information purpose, to generate country-specific "
+"legal reports, and set the rules to close a fiscal year and generate "
+"opening entries."
+msgstr ""
+"Hesap Tipi bilgi amaçlıdır, ülkeye özgü yasal raporlar oluşturmak ve mali "
+"yıl kapanış kurallarını ayarlamak ve devir kayıtlarını oluşturmak için "
+"kullanılabilir. Sistem iç tipi esas alır."
+
+#. module: account_tr
+#: model:ir.model.fields,field_description:account_tr.field_account_tax_office__active
+msgid "Active"
+msgstr "Aktif"
+
+#. module: account_tr
+#: model:ir.model.fields.selection,name:account_tr.selection__res_company__account_tr__all
+msgid "All partners"
+msgstr "Tüm İş Ortakları"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_amortismana_tabi_sabit_kiymet_satislari
+msgid ""
+"Amortismana Tabi Sabit Kıymet (Taşınmaz, Taşıt Araçları, Demirbaş, Makine "
+"ve Teçhizat\n"
+"                vb.) Satışları"
+msgstr ""
+"Amortismana Tabi Sabit Kıymet (Taşınmaz, Taşıt Araçları, Demirbaş, Makine "
+"ve Teçhizat\n"
+"                vb.) Satışları"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_ar_ge_yenilik_ve_tasarim_faaliyetlerinde_kullanilmak
+msgid ""
+"Ar-Ge, Yenilik ve Tasarım Faaliyetlerinde Kullanılmak Üzere Yapılan Yeni "
+"Makina ve\n"
+"                Teçhizat Teslimlerinde İstisna"
+msgstr ""
+"Ar-Ge, Yenilik ve Tasarım Faaliyetlerinde Kullanılmak Üzere Yapılan Yeni "
+"Makina ve\n"
+"                Teçhizat Teslimlerinde İstisna"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_askeri_fabrika_tersane_ve_atolyelerin_islemleri
+msgid "Askeri Fabrika, Tersane ve Atölyelerin İşlemleri"
+msgstr "Askeri Fabrika, Tersane ve Atölyelerin İşlemleri"
+
+#. module: account_tr
+#: model:ir.model.fields.selection,name:account_tr.selection__account_account__specifier__asset
+msgid "Asset"
+msgstr "Demirbaş"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_agac_orman_urunleri_teslimi
+msgid "AĞAÇ VE ORMAN ÜRÜNLERİ TESLİMİ *GT 117-Bölüm (3.3.6)+"
+msgstr "AĞAÇ VE ORMAN ÜRÜNLERİ TESLİMİ *GT 117-Bölüm (3.3.6)+"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_8_agac_ve_orman_urunleri_teslimi
+msgid "Ağaç ve Orman Ürünleri Teslimi[KDVGUT-(I/C-2.1.3.3.6)]"
+msgstr "Ağaç ve Orman Ürünleri Teslimi[KDVGUT-(I/C-2.1.3.3.6)]"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_bakir_cinko_aluminyum_teslimi
+msgid "BAKIR, ÇİNKO VE ALÜMİNYUM ÜRÜNLERİNİN TESLİMİ *GT 117 Bölüm (3.3.2)+"
+msgstr "BAKIR, ÇİNKO VE ALÜMİNYUM ÜRÜNLERİNİN TESLİMİ *GT 117 Bölüm (3.3.2)+"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_8_bakir_cinko_aluminyum_ve_kursun_urunlerinin_teslimi
+msgid ""
+"Bakır, Çinko, Alüminyum ve Kurşun Ürünlerinin Teslimi[KDVGUT-(I/"
+"C-2.1.3.3.2)]"
+msgstr ""
+"Bakır, Çinko, Alüminyum ve Kurşun Ürünlerinin Teslimi[KDVGUT-(I/"
+"C-2.1.3.3.2)]"
+
+#. module: account_tr
+#: model:ir.model,name:account_tr.model_res_bank
+msgid "Bank"
+msgstr "Banka"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_banka_ve_sigorta_muameleri_vergisi_kapsamina_giren_islemler
+msgid "Banka ve Sigorta Muameleleri Vergisi Kapsamına Giren İşlemler"
+msgstr "Banka ve Sigorta Muameleleri Vergisi Kapsamına Giren İşlemler"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_basili_kitap_ve_sureli_yayinlarin_teslimleri
+msgid "Basılı Kitap ve Süreli Yayınların Teslimleri"
+msgstr "Basılı Kitap ve Süreli Yayınların Teslimleri"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_basin_yayin_ve_enformasyon_genel_mudurlugune_verilen_haber_hizmetleri
+msgid "Basın-Yayın ve Enformasyon Genel Müdürlüğüne Verilen Haber Hizmetleri"
+msgstr "Basın-Yayın ve Enformasyon Genel Müdürlüğüne Verilen Haber Hizmetleri"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_baskanlik_merkez_teskilatina_yaplan_arac_teslimleri
+msgid "Başbakanlık Merkez Teşkilatına Yapılan Araç Teslimleri"
+msgstr "Başbakanlık Merkez Teşkilatına Yapılan Araç Teslimleri"
+
+#. module: account_tr
+#: model:account.tax.group,name:account_tr.tax_group_belediye_tuketim_vergisi
+msgid "Belediye Tüketim Vergisi"
+msgstr "Belediye Tüketim Vergisi"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_birlesme_devir_donusum_ve_bolunme_islemleri
+msgid "Birleşme,Devir, Dönüşüm ve Bölünme İşlemleri"
+msgstr "Birleşme,Devir, Dönüşüm ve Bölünme İşlemleri"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_birlesmis_milletler_mal_ve_hizmet_ifalari
+msgid ""
+"Birleşmiş Milletler (BM) ile Kuzey Atlantik Antlaşması Teşkilatı(NATO) "
+"Temsilcilikleri ve\n"
+"                Bu Teşkilatlara Bağlı Program, Fon ve Özel İhtisas "
+"Kuruluşları ile İktisadi İşbirliği ve Kalkınma\n"
+"                Teşkilatına(OECD) Resmi Kullanımları İçin Yapılacak Mal "
+"Teslimi ve Hizmet İfaları, Bunların Sosyal ve\n"
+"                Ekonomik Yardım Amacıyla Bedelsiz Olarak Yapacakları Mal "
+"Teslimi ve Hizmet İfaları ile İlgili Bunlara\n"
+"                Yapılan Mal Teslimi ve Hizmet İfaları"
+msgstr ""
+"Birleşmiş Milletler (BM) ile Kuzey Atlantik Antlaşması Teşkilatı(NATO) "
+"Temsilcilikleri ve\n"
+"                Bu Teşkilatlara Bağlı Program, Fon ve Özel İhtisas "
+"Kuruluşları ile İktisadi İşbirliği ve Kalkınma\n"
+"                Teşkilatına(OECD) Resmi Kullanımları İçin Yapılacak Mal "
+"Teslimi ve Hizmet İfaları, Bunların Sosyal ve\n"
+"                Ekonomik Yardım Amacıyla Bedelsiz Olarak Yapacakları Mal "
+"Teslimi ve Hizmet İfaları ile İlgili Bunlara\n"
+"                Yapılan Mal Teslimi ve Hizmet İfaları"
+
+#. module: account_tr
+#: model:account.tax.group,name:account_tr.tax_group_borsa_tescil_ucreti
+msgid "Borsa Tescil Ücreti"
+msgstr "Borsa Tescil Ücreti"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_boru_hatti_ile_yapilan_petrol_ve_gaz_tasimaciligi
+msgid "Boru Hattı ile Yapılan Petrol ve Gaz Taşımacılığı"
+msgstr "Boru Hattı ile Yapılan Petrol ve Gaz Taşımacılığı"
+
+#. module: account_tr
+#: model:ir.model.fields.selection,name:account_tr.selection__account_account__account_type__asset_check
+#: model:ir.model.fields.selection,name:account_tr.selection__account_account_template__account_type__asset_check
+msgid "Check"
+msgstr "Kontrol"
+
+#. module: account_tr
+#: model:ir.model,name:account_tr.model_res_company
+msgid "Companies"
+msgstr "Şirketler"
+
+#. module: account_tr
+#: model:ir.model,name:account_tr.model_res_partner
+msgid "Contact"
+msgstr "Kontak"
+
+#. module: account_tr
+#: model:ir.model.fields,field_description:account_tr.field_account_tax_office__create_uid
+#: model:ir.model.fields,field_description:account_tr.field_account_tax_office_import__create_uid
+msgid "Created by"
+msgstr "Oluşturan"
+
+#. module: account_tr
+#: model:ir.model.fields,field_description:account_tr.field_account_tax_office__create_date
+#: model:ir.model.fields,field_description:account_tr.field_account_tax_office_import__create_date
+msgid "Created on"
+msgstr "Oluşturulma"
+
+#. module: account_tr
+#: model:ir.model.fields.selection,name:account_tr.selection__account_account__account_type__equity_cpl
+msgid "Current Profit & Loss"
+msgstr "Kar & Zarar"
+
+#. module: account_tr
+#: model:account.tax.group,name:account_tr.tax_group_damga_vergisi
+msgid "Damga Vergisi"
+msgstr "Damga Vergisi"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_8_demir-celik_urunlerinin_teslimi
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_demir_celik_urunlerinin_teslimi
+msgid "Demir-Çelik Ürünlerinin Teslimi [KDVGUT-(I/C-2.1.3.3.8)]"
+msgstr "Demir-Çelik Ürünlerinin Teslimi [KDVGUT-(I/C-2.1.3.3.8)]"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_deniz_ve_hava_arac_liman_meydan_hizmet
+msgid ""
+"Deniz ve Hava Taşıma Araçları İçin Liman ve Hava Meydanlarında Yapılan "
+"Hizmetler"
+msgstr ""
+"Deniz ve Hava Taşıma Araçları İçin Liman ve Hava Meydanlarında Yapılan "
+"Hizmetler"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_deniz_hava_ve_demiryolu_teslim_insaa_tadil_bakim_onarim
+msgid ""
+"Deniz, Hava ve Demiryolu Taşıma Araçlarının Teslimi ile İnşa, Tadil,Bakım "
+"ve Onarımları"
+msgstr ""
+"Deniz, Hava ve Demiryolu Taşıma Araçlarının Teslimi ile İnşa, Tadil,Bakım "
+"ve Onarımları"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_diplomatik_organ_ve_misyonlara_teslim_ve_hizmetler
+msgid "Diplomatik Organ ve Misyonlara Yapılan Teslim ve Hizmetler"
+msgstr "Diplomatik Organ ve Misyonlara Yapılan Teslim ve Hizmetler"
+
+#. module: account_tr
+#: model:ir.model.fields,field_description:account_tr.field_account_tax_office__display_name
+#: model:ir.model.fields,field_description:account_tr.field_account_tax_office_import__display_name
+msgid "Display Name"
+msgstr "Görünüm Adı"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_250_digerleri
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_350_digerleri
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_450_digerleri
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_505_digerleri
+msgid "Diğerleri"
+msgstr "Diğerleri"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_doviz_para_damga_pulu_degerli_kagitlar_hisse_senedi_tahvil_teslimleri
+msgid ""
+"Döviz, Para, Damga Pulu, Değerli Kağıtlar, Hisse Senedi, Tahvil Teslimleri"
+msgstr ""
+"Döviz, Para, Damga Pulu, Değerli Kağıtlar, Hisse Senedi, Tahvil Teslimleri"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_diger_teslimler
+msgid "DİĞER TESLİMLER [KDVGUT-(I/C-2.1.3.3.7.)]"
+msgstr "DİĞER TESLİMLER [KDVGUT-(I/C-2.1.3.3.7.)]"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_digerleri
+msgid "DİĞERLERİ"
+msgstr "DİĞERLERİ"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_diib_gecici_kabul_rejimi_satislari
+msgid "DİİB ve Geçici Kabul Rejimi Kapsamındaki Satışlar"
+msgstr "DİİB ve Geçici Kabul Rejimi Kapsamındaki Satışlar"
+
+#. module: account_tr
+#: model_terms:ir.ui.view,arch_db:account_tr.view_account_tax_template_form
+#: model_terms:ir.ui.view,arch_db:account_tr.view_tax_form
+msgid "EBYN"
+msgstr "EBYN"
+
+#. module: account_tr
+#: model:ir.model.fields,field_description:account_tr.field_res_bank__eft_code
+msgid "EFT Code"
+msgstr "EFT Code"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_etut_plan_proje_danismanlik_denetim_hizmetleri
+msgid ""
+"ETÜT, PLAN-PROJE, DANIŞMANLIK, DENETİM VE BENZERİ HİZMETLER*GT 117-Bölüm "
+"(3.2.2)+"
+msgstr ""
+"ETÜT, PLAN-PROJE, DANIŞMANLIK, DENETİM VE BENZERİ HİZMETLER*GT 117-Bölüm "
+"(3.2.2)+"
+
+#. module: account_tr
+#: model:ir.model.fields,help:account_tr.field_account_tax__tax_rate
+#: model:ir.model.fields,help:account_tr.field_account_tax__witholding_rate
+#: model:ir.model.fields,help:account_tr.field_account_tax_template__tax_rate
+#: model:ir.model.fields,help:account_tr.field_account_tax_template__witholding_rate
+msgid "Electronic Declaration Field"
+msgstr "E-Beyanname Alanı"
+
+#. module: account_tr
+#: model:account.tax.group,name:account_tr.tax_group_elektrik_tuketim_vergisi
+msgid "Elektrik Tüketim Vergisi"
+msgstr "Elektrik Tüketim Vergisi"
+
+#. module: account_tr
+#: model:account.tax.group,name:account_tr.tax_group_elektrik_ve_havagazi_tuketim_vergisi
+msgid "Elektrik ve Havagazı Tüketim Vergisi"
+msgstr "Elektrik ve Havagazı Tüketim Vergisi"
+
+#. module: account_tr
+#: model:account.tax.group,name:account_tr.tax_group_enerji_fonu
+msgid "Enerji Fonu"
+msgstr "Enerji Fonu"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_engellilerin_egitimleri_mesleki_gunluk_yasam_arac_gerec_bilgisayar_programlari
+msgid ""
+"Engellilerin Eğitimleri, Meslekleri ve Günlük Yaşamlarına İlişkin Araç-"
+"Gereç ve\n"
+"                Bilgisayar Programları"
+msgstr ""
+"Engellilerin Eğitimleri, Meslekleri ve Günlük Yaşamlarına İlişkin Araç-"
+"Gereç ve\n"
+"                Bilgisayar Programları"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_8_etut_plan-proje_danismanlik_denetim_ve_benzeri_hizmetleri
+msgid ""
+"Etüt, Plan-Proje, Danışmanlık, Denetim ve Benzeri Hizmetler[KDVGUT-(I/"
+"C-2.1.3.2.2)]"
+msgstr ""
+"Etüt, Plan-Proje, Danışmanlık, Denetim ve Benzeri Hizmetler[KDVGUT-(I/"
+"C-2.1.3.2.2)]"
+
+#. module: account_tr
+#: model:ir.model.fields.selection,name:account_tr.selection__account_account__specifier__expense
+msgid "Expense"
+msgstr "Masraf"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_fatih_projesi_kapsaminda
+msgid ""
+"FATİH Projesi Kapsamında Milli Eğitim Bakanlığına Yapılacak Mal Teslimi ve "
+"Hizmet\n"
+"                İfaları"
+msgstr ""
+"FATİH Projesi Kapsamında Milli Eğitim Bakanlığına Yapılacak Mal Teslimi ve "
+"Hizmet\n"
+"                İfaları"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_fason_yaptirilan
+msgid ""
+"Fason Olarak Yaptırılan Tekstil ve Konfeksiyon İşleri, Çanta ve Ayakkabı "
+"Dikim İşleri ve\n"
+"                Bu İşlere Aracılık Hizmetleri [GT 117-Bölüm (3.2.7)]"
+msgstr ""
+"Fason Olarak Yaptırılan Tekstil ve Konfeksiyon İşleri, Çanta ve Ayakkabı "
+"Dikim İşleri ve\n"
+"                Bu İşlere Aracılık Hizmetleri [GT 117-Bölüm (3.2.7)]"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_8_fason_olarak_yaptirilan_tekstil_ve_konfeksiyon_isleri
+msgid ""
+"Fason Olarak Yaptırılan Tekstil ve Konfeksiyon İşleri, Çanta ve Ayakkabı "
+"Dikim İşleri ve\n"
+"                Bu İşlere Aracılık Hizmetleri[KDVGUT-(I/C-2.1.3.2.7)]"
+msgstr ""
+"Fason Olarak Yaptırılan Tekstil ve Konfeksiyon İşleri, Çanta ve Ayakkabı "
+"Dikim İşleri ve\n"
+"                Bu İşlere Aracılık Hizmetleri[KDVGUT-(I/C-2.1.3.2.7)]"
+
+#. module: account_tr
+#: model:ir.actions.act_window,name:account_tr.action_account_fiscal_position_category
+#: model:ir.ui.menu,name:account_tr.menu_account_fiscal_position_category
+msgid "Fiscal Position Categories"
+msgstr "Mali Koşul Kategorileri"
+
+#. module: account_tr
+#: model_terms:ir.ui.view,arch_db:account_tr.view_account_fiscal_position_category_form
+#: model_terms:ir.ui.view,arch_db:account_tr.view_account_fiscal_position_category_tree
+msgid "Fiscal Position Category"
+msgstr "Mali Koşul Kategorisi"
+
+#. module: account_tr
+#: model:ir.actions.act_window,name:account_tr.account_fiscal_position_template_action
+#: model:ir.ui.menu,name:account_tr.menu_account_fiscal_position_template
+msgid "Fiscal Position Templates"
+msgstr "Mali Koşul Şablonları"
+
+#. module: account_tr
+#: model_terms:ir.actions.act_window,help:account_tr.action_account_fiscal_position_category
+msgid "Fiscal position categories."
+msgstr "Mali koşul kategorileri."
+
+#. module: account_tr
+#: model:account.tax.group,name:account_tr.tax_group_gelir_gecici_vergi
+msgid "Gelir Geçici Vergi"
+msgstr "Gelir Geçici Vergi"
+
+#. module: account_tr
+#: model:account.tax.group,name:account_tr.tax_group_gelir_vergisi_stopaji
+msgid "Gelir Vergisi Stopajı"
+msgstr "Gelir Vergisi Stopajı"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_genel_ve_ozel_butceli_kamu_idarelerine_il_ozel_idarelerine_belediyelere
+msgid ""
+"Genel ve Özel Bütçeli Kamu İdarelerine, İl Özel İdarelerine, Belediyelere "
+"ve Köylere\n"
+"                Bağışlanan Tesislerin İnşasına İlişkin İstisna"
+msgstr ""
+"Genel ve Özel Bütçeli Kamu İdarelerine, İl Özel İdarelerine, Belediyelere "
+"ve Köylere\n"
+"                Bağışlanan Tesislerin İnşasına İlişkin İstisna"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_teknoloji_gelistirme_bolge_islemleri
+msgid "Geçici 20/1 Teknoloji Geliştirme Bölgelerinde Yapılan İşlemler"
+msgstr "Geçici 20/1 Teknoloji Geliştirme Bölgelerinde Yapılan İşlemler"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_meb_bilgisayar_bagislari
+msgid ""
+"Geçici 23 Milli Eğitim Bakanlığına Yapılan Bilgisayar Bağışları İle İlgili "
+"Teslimler"
+msgstr ""
+"Geçici 23 Milli Eğitim Bakanlığına Yapılan Bilgisayar Bağışları İle İlgili "
+"Teslimler"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_gumruk_antrepolari_gecici_depolama_yerleri_ile_gumruklu
+msgid ""
+"Gümrük Antrepoları, Geçici Depolama Yerleri ile Gümrüklü Sahalarda Vergisiz "
+"Satış Yapılan\n"
+"                İşyeri, Depo ve Ardiye Gibi Bağımsız Birimlerin Kiralanması"
+msgstr ""
+"Gümrük Antrepoları, Geçici Depolama Yerleri ile Gümrüklü Sahalarda Vergisiz "
+"Satış Yapılan\n"
+"                İşyeri, Depo ve Ardiye Gibi Bağımsız Birimlerin Kiralanması"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_gumruk_antrepolari_gecici_depolama_yerleri_ile_gumruklu_sahalarda_ithalat_ve_ihracat_ismlemlerine
+msgid ""
+"Gümrük Antrepoları, Geçici Depolama Yerleri ile Gümrüklü Sahalarda, İthalat "
+"ve İhracat\n"
+"                İşlemlerine konu mallar ile transit rejim kapsamında işlem "
+"gören mallar için verilen ardiye, depolama ve\n"
+"                terminal hizmetleri"
+msgstr ""
+"Gümrük Antrepoları, Geçici Depolama Yerleri ile Gümrüklü Sahalarda, İthalat "
+"ve İhracat\n"
+"                İşlemlerine konu mallar ile transit rejim kapsamında işlem "
+"gören mallar için verilen ardiye, depolama ve\n"
+"                terminal hizmetleri"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_gida_bankaciligi_faaliyetlerinde_bulunan_dernek_ve_vakiflara_bagislanan
+msgid ""
+"Gıda Bankacılığı Faaliyetinde Bulunan Dernek ve Vakıflara Bağışlanan Gıda, "
+"Temizlik,\n"
+"                Giyecek ve Yakacak Maddeleri"
+msgstr ""
+"Gıda Bankacılığı Faaliyetinde Bulunan Dernek ve Vakıflara Bağışlanan Gıda, "
+"Temizlik,\n"
+"                Giyecek ve Yakacak Maddeleri"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_gida_tarim_ve_hayvancilik
+msgid ""
+"Gıda, Tarım ve Hayvancılık Bakanlığı Tarafından Tescil Edilmiş Gübrelerin "
+"Teslimi"
+msgstr ""
+"Gıda, Tarım ve Hayvancılık Bakanlığı Tarafından Tescil Edilmiş Gübrelerin "
+"Teslimi"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_gida_tarim_ve_hayvancilik_hammadde_gubre_ureticilerine
+msgid ""
+"Gıda, Tarım ve Hayvancılık Bakanlığı Tarafından Tescil Edilmiş Gübrelerin "
+"İçeriğinde\n"
+"                Bulunan Hammaddelerin Gübre Üreticilerine Teslimi"
+msgstr ""
+"Gıda, Tarım ve Hayvancılık Bakanlığı Tarafından Tescil Edilmiş Gübrelerin "
+"İçeriğinde\n"
+"                Bulunan Hammaddelerin Gübre Üreticilerine Teslimi"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_baski_basim_hizmetleri
+msgid "HER TÜRLÜ BASKI VE BASIM HİZMETLERİ *GT 117-Bölüm (3.2.12)+"
+msgstr "HER TÜRLÜ BASKI VE BASIM HİZMETLERİ *GT 117-Bölüm (3.2.12)+"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_hurda_metalden_elde_edilen_kulce_teslimleri
+msgid "HURDA METALDEN ELDE EDİLEN KÜLÇE TESLİMLERİ [GT 117-Bölüm (3.3.1)]"
+msgstr "HURDA METALDEN ELDE EDİLEN KÜLÇE TESLİMLERİ [GT 117-Bölüm (3.3.1)]"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_hurda_metal_disi_bakir_cinko_aluminyum_teslimleri
+msgid ""
+"HURDA METALDEN ELDE EDİLENLER DIŞINDAKİ BAKIR, ÇİNKO VE ALÜMİNYUM KÜLÇE "
+"TESLİMLERİ *GT\n"
+"                117-Bölüm (3.3.1)+"
+msgstr ""
+"HURDA METALDEN ELDE EDİLENLER DIŞINDAKİ BAKIR, ÇİNKO VE ALÜMİNYUM KÜLÇE "
+"TESLİMLERİ *GT\n"
+"                117-Bölüm (3.3.1)+"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_hazine_ve_arsa_ofisi_genel_mudurlugunun_islemleri
+msgid "Hazine ve Arsa Ofisi Genel Müdürlüğünün İşlemleri"
+msgstr "Hazine ve Arsa Ofisi Genel Müdürlüğünün İşlemleri"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_8_her_turlu_baski_ve_basim_hizmetleri
+msgid "Her Türlü Baskı ve Basım Hizmetleri[KDVGUT-(I/C-2.1.3.2.12)]"
+msgstr "Her Türlü Baskı ve Basım Hizmetleri[KDVGUT-(I/C-2.1.3.2.12)]"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_8_hurda_metalden_elde_edilen_kulce_teslimleri
+msgid "Hurda Metalden Elde Edilen Külçe Teslimleri[KDVGUT-(I/C-2.1.3.3.1)]"
+msgstr "Hurda Metalden Elde Edilen Külçe Teslimleri[KDVGUT-(I/C-2.1.3.3.1)]"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_8_hurda_metalden_elde_edilenler_disindaki_bakir_cinko_demir_celik_aluminyum
+msgid ""
+"Hurda Metalden Elde Edilenler Dışındaki Bakır, Çinko, Demir Çelik, "
+"Alüminyum ve Kurşun\n"
+"                Külçe Teslimi [KDVGUT-(I/C-2.1.3.3.1)]"
+msgstr ""
+"Hurda Metalden Elde Edilenler Dışındaki Bakır, Çinko, Demir Çelik, "
+"Alüminyum ve Kurşun\n"
+"                Külçe Teslimi [KDVGUT-(I/C-2.1.3.3.1)]"
+
+#. module: account_tr
+#: model:ir.model.fields,field_description:account_tr.field_account_tax_office__id
+#: model:ir.model.fields,field_description:account_tr.field_account_tax_office_import__id
+msgid "ID"
+msgstr "ID"
+
+#. module: account_tr
+#: model:ir.model.fields.selection,name:account_tr.selection__account_account__specifier__income
+msgid "Income"
+msgstr "Income"
+
+#. module: account_tr
+#: model:ir.model,name:account_tr.model_account_journal
+msgid "Journal"
+msgstr "Yevmiye"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_kanunlarin_gosterdigi_gerek_uzerine_bedelsiz_olarak_yapilan_teslim_ve_hizmetler
+msgid ""
+"Kanunların Gösterdiği Gerek Üzerine Bedelsiz Olarak Yapılan Teslim ve "
+"Hizmetler"
+msgstr ""
+"Kanunların Gösterdiği Gerek Üzerine Bedelsiz Olarak Yapılan Teslim ve "
+"Hizmetler"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_kanunun_17_1_maddesinde_sayilan_kurum_ve_kuruluslara_bedelsiz_olarak
+msgid ""
+"Kanunun (17/1) Maddesinde Sayılan Kurum ve Kuruluşlara Bedelsiz Olarak "
+"Yapılan Teslim ve\n"
+"                Hizmetler"
+msgstr ""
+"Kanunun (17/1) Maddesinde Sayılan Kurum ve Kuruluşlara Bedelsiz Olarak "
+"Yapılan Teslim ve\n"
+"                Hizmetler"
+
+#. module: account_tr
+#: model:account.tax.group,name:account_tr.tax_group_kdv_tevkifati
+msgid "Katma Değer Vergisi Tevkifatı"
+msgstr "Katma Değer Vergisi Tevkifatı"
+
+#. module: account_tr
+#: model:account.tax.group,name:account_tr.tax_group_kdv
+msgid "Katma Değer Vergisi(KDV)"
+msgstr "Katma Değer Vergisi(KDV)"
+
+#. module: account_tr
+#: model:account.tax.group,name:account_tr.tax_group_kkdf
+msgid "Kaynak Kullanımı Destekleme Fonu (KKDF) Kesintisi"
+msgstr "Kaynak Kullanımı Destekleme Fonu (KKDF) Kesintisi"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_konut_finansmani_amaciyla_teminat_gosterilen_ve_ipotek_konulan_konutlarin_teslimleri
+msgid ""
+"Konut Finansmanı Amacıyla Teminat Gösterilen ve İpotek Konulan Konutların "
+"Teslimi"
+msgstr ""
+"Konut Finansmanı Amacıyla Teminat Gösterilen ve İpotek Konulan Konutların "
+"Teslimi"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_konut_yapi_kooperatifleri_belediyeler_ve_sosyal_guvenlik_kuruluaslari
+msgid ""
+"Konut Yapı Kooperatifleri, Belediyeler ve Sosyal Güvenlik Kuruluşlarına "
+"Verilen İnşaat\n"
+"                Taahhüt Hizmeti"
+msgstr ""
+"Konut Yapı Kooperatifleri, Belediyeler ve Sosyal Güvenlik Kuruluşlarına "
+"Verilen İnşaat\n"
+"                Taahhüt Hizmeti"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_konut_veya_isyeri_teslimleri
+msgid "Konut veya İş Yeri Teslimleri"
+msgstr "Konut veya İş Yeri Teslimleri"
+
+#. module: account_tr
+#: model:account.tax.group,name:account_tr.tax_group_kurum_gecici_vergi
+msgid "Kurum Geçici Vergi"
+msgstr "Kurum Geçici Vergi"
+
+#. module: account_tr
+#: model:account.tax.group,name:account_tr.tax_group_kurumlar_vergisi
+msgid "Kurumlar Vergisi"
+msgstr "Kurumlar Vergisi"
+
+#. module: account_tr
+#: model:account.tax.group,name:account_tr.tax_group_kurumlar_vergisi_stopaji
+msgid "Kurumlar Vergisi Stopajı"
+msgstr "Kurumlar Vergisi Stopajı"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_kulce_altin_kulce_gumus_kiymetli_tas_teslimleri
+msgid "Külçe Altın, Külçe Gümüş, Kıymetli Taş Teslimleri"
+msgstr "Külçe Altın, Külçe Gümüş, Kıymetli Taş Teslimleri"
+
+#. module: account_tr
+#: model:ir.model.fields,field_description:account_tr.field_account_tax_office____last_update
+#: model:ir.model.fields,field_description:account_tr.field_account_tax_office_import____last_update
+msgid "Last Modified on"
+msgstr "Son Değiştirilme"
+
+#. module: account_tr
+#: model:ir.model.fields,field_description:account_tr.field_account_tax_office__write_uid
+#: model:ir.model.fields,field_description:account_tr.field_account_tax_office_import__write_uid
+msgid "Last Updated by"
+msgstr "Son Güncelleyen"
+
+#. module: account_tr
+#: model:ir.model.fields,field_description:account_tr.field_account_tax_office__write_date
+#: model:ir.model.fields,field_description:account_tr.field_account_tax_office_import__write_date
+msgid "Last Updated on"
+msgstr "Son Güncelleme"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_tesvikli_limanlara_baglanti
+msgid ""
+"Limanlara Bağlantı Sağlayan Demiryolu Hatları ile Liman ve Hava "
+"Meydanlarının İnşası,\n"
+"                Yenilenmesi ve Genişletilmesi"
+msgstr ""
+"Limanlara Bağlantı Sağlayan Demiryolu Hatları ile Liman ve Hava "
+"Meydanlarının İnşası,\n"
+"                Yenilenmesi ve Genişletilmesi"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_mak_tec_dem_tas_bakim_onarim_hizmetleri
+msgid ""
+"MAKİNE, TEÇHİZAT, DEMİRBAŞ VE TAŞITLARA AİT TADİL, BAKIM VE ONARIM "
+"HİZMETLERİ *GT\n"
+"                117-Bölüm (3.2.3)+"
+msgstr ""
+"MAKİNE, TEÇHİZAT, DEMİRBAŞ VE TAŞITLARA AİT TADİL, BAKIM VE ONARIM "
+"HİZMETLERİ *GT\n"
+"                117-Bölüm (3.2.3)+"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_met_plas_last_kauc_kag_cam_hurda_atik_teslimi
+msgid ""
+"METAL, PLASTİK, LASTİK, KAUÇUK, KÂĞIT VE CAM HURDA VE ATIKLARDAN ELDE "
+"EDİLEN HAMMADDE\n"
+"                TESLİMİ *GT 117-Bölüm (3.3.4)]"
+msgstr ""
+"METAL, PLASTİK, LASTİK, KAUÇUK, KÂĞIT VE CAM HURDA VE ATIKLARDAN ELDE "
+"EDİLEN HAMMADDE\n"
+"                TESLİMİ *GT 117-Bölüm (3.3.4)]"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_maden_arama_teslim_ve_hizmetler
+msgid ""
+"Maden Arama, Altın, Gümüş veya Platin Madenleri İçin İşletme, "
+"Zenginleştirme ve Rafinaj\n"
+"                Faaliyetlerine İlişkin Teslim ve Hizmetler [KDVGUT-(II/B-4)]"
+msgstr ""
+"Maden Arama, Altın, Gümüş veya Platin Madenleri İçin İşletme, "
+"Zenginleştirme ve Rafinaj\n"
+"                Faaliyetlerine İlişkin Teslim ve Hizmetler [KDVGUT-(II/B-4)]"
+
+#. module: account_tr
+#: model:account.tax.group,name:account_tr.tax_group_mahsuplardan_kesilen_damga_vergisi
+msgid "Mahsuplardan Kesilen Damga Vergisi"
+msgstr "Mahsuplardan Kesilen Damga Vergisi"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_8_makine_techizat_demirbas_ve_tasitlara_ait_tadil_bakim_ve_onarim
+msgid ""
+"Makine, Teçhizat, Demirbaş ve Taşıtlara Ait Tadil, Bakım ve Onarım "
+"Hizmetleri[KDVGUT-\n"
+"                (I/C-2.1.3.2.3)]"
+msgstr ""
+"Makine, Teçhizat, Demirbaş ve Taşıtlara Ait Tadil, Bakım ve Onarım "
+"Hizmetleri[KDVGUT-\n"
+"                (I/C-2.1.3.2.3)]"
+
+#. module: account_tr
+#: model:ir.model,name:account_tr.model_base_partner_merge_automatic_wizard
+msgid "Merge Partner Wizard"
+msgstr "İş Ortağı Birleştirme Sihirbazı"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_mesleki_kuruluslarin_islemleri
+msgid "Mesleki Kuruluşların İşlemleri"
+msgstr "Mesleki Kuruluşların İşlemleri"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_8_metal_plastik_lastik_kaucuk_kâgit_ve_cam_hurda_ve_atiklardan
+msgid ""
+"Metal, Plastik, Lastik, Kauçuk, Kâğıt ve Cam Hurda ve Atıklardan Elde "
+"Edilen Hammadde\n"
+"                Teslimi[KDVGUT-(I/C-2.1.3.3.4)]"
+msgstr ""
+"Metal, Plastik, Lastik, Kauçuk, Kâğıt ve Cam Hurda ve Atıklardan Elde "
+"Edilen Hammadde\n"
+"                Teslimi[KDVGUT-(I/C-2.1.3.3.4)]"
+
+#. module: account_tr
+#: model:ir.model.fields.selection,name:account_tr.selection__res_company__account_tr__none
+msgid "None"
+msgstr "-"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_organizasyon_hizmeti
+msgid "ORGANİZASYON HİZMETİ *GT 117-Bölüm (3.2.4)+"
+msgstr "ORGANİZASYON HİZMETİ *GT 117-Bölüm (3.2.4)+"
+
+#. module: account_tr
+#: model:ir.model.fields.selection,name:account_tr.selection__res_company__account_tr__companies
+msgid "Only companies"
+msgstr "Sadece şirketler"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_8_organizasyon_hizmeti
+msgid "Organizasyon Hizmeti[KDVGUT-(I/C-2.1.3.2.4)]"
+msgstr "Organizasyon Hizmeti[KDVGUT-(I/C-2.1.3.2.4)]"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_organize_sanayi_bolgeleri_ile_kucuk_sanayi_siteleri
+msgid ""
+"Organize Sanayi Bölgeleri ile Küçük Sanayi Sitelerinin İnşasına İlişkin "
+"Teslim ve\n"
+"                Hizmetler"
+msgstr ""
+"Organize Sanayi Bölgeleri ile Küçük Sanayi Sitelerinin İnşasına İlişkin "
+"Teslim ve\n"
+"                Hizmetler"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_organize_sanayi_bolgelerindeki_arsa_ve_isyeri_teslimleri_ile_konut
+msgid ""
+"Organize Sanayi Bölgelerindeki Arsa ve İşyeri Teslimleri ile Konut Yapı "
+"Kooperatiflerinin\n"
+"                Üyelerine Konut Teslimleri"
+msgstr ""
+"Organize Sanayi Bölgelerindeki Arsa ve İşyeri Teslimleri ile Konut Yapı "
+"Kooperatiflerinin\n"
+"                Üyelerine Konut Teslimleri"
+
+#. module: account_tr
+#: model:ir.model.fields.selection,name:account_tr.selection__account_account__account_type__expense_other
+#: model:ir.model.fields.selection,name:account_tr.selection__account_account_template__account_type__expense_other
+msgid "Other"
+msgstr "Diğer"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_pamuk_tiftik_yun_ve_yapagi
+msgid ""
+"PAMUK, TİFTİK, YÜN VE YAPAĞI İLE HAM POST VE DERİ TESLİMLERİ [GT 117-Bölüm "
+"(3.3.5)]"
+msgstr ""
+"PAMUK, TİFTİK, YÜN VE YAPAĞI İLE HAM POST VE DERİ TESLİMLERİ [GT 117-Bölüm "
+"(3.3.5)]"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_8_pamuk_tiftik_yun_ve_yapagi_ile_ham_post_ve_deri_teslimleri
+msgid ""
+"Pamuk, Tiftik, Yün ve Yapağı İle Ham Post ve Deri Teslimleri[KDVGUT-(I/"
+"C-2.1.3.3.5)]"
+msgstr ""
+"Pamuk, Tiftik, Yün ve Yapağı İle Ham Post ve Deri Teslimleri[KDVGUT-(I/"
+"C-2.1.3.3.5)]"
+
+#. module: account_tr
+#: model_terms:ir.ui.view,arch_db:account_tr.view_company_form
+msgid "Partners"
+msgstr "İş Ortakları"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_patentli_veya_faydali_model_belgeli_bulusa_iliskin_gayrimaddi_haklarin_kiralanmasi
+msgid ""
+"Patentli veya Faydalı Model Belgeli Buluşa İlişkin Gayrimaddi Hakların "
+"Kiralanması,Devri\n"
+"                ve Satışı"
+msgstr ""
+"Patentli veya Faydalı Model Belgeli Buluşa İlişkin Gayrimaddi Hakların "
+"Kiralanması,Devri\n"
+"                ve Satışı"
+
+#. module: account_tr
+#: model:ir.model.fields,field_description:account_tr.field_account_journal__payment_subtype
+msgid "Payment Subtype"
+msgstr "Ödeme Alt Türü"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_petrol_arama_insaa_teslim_ve_hizmet
+msgid ""
+"Petrol Aramaları ve Petrol Boru Hatlarının İnşa ve Modernizasyonuna İlişkin "
+"Yapılan\n"
+"                Teslim ve Hizmetler"
+msgstr ""
+"Petrol Aramaları ve Petrol Boru Hatlarının İnşa ve Modernizasyonuna İlişkin "
+"Yapılan\n"
+"                Teslim ve Hizmetler"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_servis_tasimaciligi_hizmeti
+msgid "SERVİS TAŞIMACILIĞI HİZMETİ *GT 117-Bölüm (3.2.11)+"
+msgstr "SERVİS TAŞIMACILIĞI HİZMETİ *GT 117-Bölüm (3.2.11)+"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_spor_kulüplerinin_yayin_reklam
+msgid ""
+"SPOR KULÜPLERİNİN YAYIN, REKLÂM VE İSİM HAKKI GELİRLERİNE KONU İŞLEMLERİ "
+"[GT 117-Bölüm\n"
+"                (3.2.9)]"
+msgstr ""
+"SPOR KULÜPLERİNİN YAYIN, REKLÂM VE İSİM HAKKI GELİRLERİNE KONU İŞLEMLERİ "
+"[GT 117-Bölüm\n"
+"                (3.2.9)]"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_serbest_bolgelerde_verilen_hizmetler
+msgid "Serbest Bölgelerde Verilen Hizmetler"
+msgstr "Serbest Bölgelerde Verilen Hizmetler"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_8_servis_tasimaciligi_hizmeti
+msgid "Servis Taşımacılığı Hizmeti[KDVGUT-(I/C-2.1.3.2.11)]"
+msgstr "Servis Taşımacılığı Hizmeti[KDVGUT-(I/C-2.1.3.2.11)]"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_8_spor_kuluplerinin_yayin_reklâm_ve_isim_hakki_gelirleri_konu_islemleri
+msgid ""
+"Spor Kulüplerinin Yayın, Reklâm ve İsim Hakkı Gelirlerine Konu\n"
+"                İşlemleri[KDVGUT-(I/C-2.1.3.2.9)]"
+msgstr ""
+"Spor Kulüplerinin Yayın, Reklâm ve İsim Hakkı Gelirlerine Konu\n"
+"                İşlemleri[KDVGUT-(I/C-2.1.3.2.9)]"
+
+#. module: account_tr
+#: model:ir.model.fields,field_description:account_tr.field_account_tax_office__state_id
+msgid "State"
+msgstr "Şehir"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_temizlik_hizmeti
+msgid "TEMİZLİK HİZMETİ *GT 117-Bölüm (3.2.10)+"
+msgstr "TEMİZLİK HİZMETİ *GT 117-Bölüm (3.2.10)+"
+
+#. module: account_tr
+#: model:account.tax.group,name:account_tr.tax_group_trt_payi
+msgid "TRT Payı"
+msgstr "TRT Payı"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_turistik_magazalara_verilen_musteri
+msgid ""
+"TURİSTİK MAĞAZALARA VERİLEN MÜŞTERİ BULMA / GÖTÜRME HİZMETLERİ [GT 117-"
+"Bölüm (3.2.8)]"
+msgstr ""
+"TURİSTİK MAĞAZALARA VERİLEN MÜŞTERİ BULMA / GÖTÜRME HİZMETLERİ [GT 117-"
+"Bölüm (3.2.8)]"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_tasarruf_mevduati_sigorta_fonunun_islemleri
+msgid "Tasarruf Mevduatı Sigorta Fonunun İşlemleri"
+msgstr "Tasarruf Mevduatı Sigorta Fonunun İşlemleri"
+
+#. module: account_tr
+#: model:ir.model,name:account_tr.model_account_tax
+#: model:ir.model.fields.selection,name:account_tr.selection__account_account__account_type__liability_tax
+#: model:ir.model.fields.selection,name:account_tr.selection__account_account_template__account_type__liability_tax
+msgid "Tax"
+msgstr "Vergi"
+
+#. module: account_tr
+#: model:ir.model.fields,field_description:account_tr.field_account_tax__code
+#: model:ir.model.fields,field_description:account_tr.field_account_tax_template__code
+msgid "Tax Code"
+msgstr "Vergi Kodu"
+
+#. module: account_tr
+#: model:ir.model.fields,field_description:account_tr.field_res_partner__vat
+#: model:ir.model.fields,field_description:account_tr.field_res_users__vat
+msgid "Tax ID"
+msgstr "Vergi No"
+
+#. module: account_tr
+#: model:ir.actions.act_window,name:account_tr.action_tax_office
+#: model:ir.model,name:account_tr.model_account_tax_office
+#: model:ir.model.fields,field_description:account_tr.field_res_company__tax_office_id
+#: model:ir.model.fields,field_description:account_tr.field_res_partner__tax_office_id
+#: model:ir.model.fields,field_description:account_tr.field_res_users__tax_office_id
+#: model_terms:ir.ui.view,arch_db:account_tr.view_tax_office_form
+#: model_terms:ir.ui.view,arch_db:account_tr.view_tax_office_search
+msgid "Tax Office"
+msgstr "Vergi Dairesi"
+
+#. module: account_tr
+#: model:ir.model.fields,field_description:account_tr.field_account_tax_office__code
+msgid "Tax Office Code"
+msgstr "Vergi Dairesi Kodu"
+
+#. module: account_tr
+#: model:ir.model.fields,field_description:account_tr.field_account_tax_office__name
+msgid "Tax Office Name"
+msgstr "Vergi Dairesi Adı"
+
+#. module: account_tr
+#: model:ir.model.fields,field_description:account_tr.field_account_tax_office_import__xml_file
+msgid "Tax Office XML"
+msgstr "Vergi Dairesi XML"
+
+#. module: account_tr
+#: model:ir.ui.menu,name:account_tr.menu_tax_office
+msgid "Tax Offices"
+msgstr "Vergi Daireleri"
+
+#. module: account_tr
+#: model:ir.model.fields,field_description:account_tr.field_account_tax__tax_rate
+#: model:ir.model.fields,field_description:account_tr.field_account_tax_template__tax_rate
+msgid "Tax Rate"
+msgstr "Vergi Oranı"
+
+#. module: account_tr
+#: model:ir.ui.menu,name:account_tr.menu_account_tax_template
+msgid "Tax Templates"
+msgstr "Vergi Şablonları"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_tasinmaz_kultur_varliklarina_iliskin_teslim_ve_mimarlik_hizmetleri
+msgid "Taşınmaz Kültür Varlıklarına İlişkin Teslimler ve Mimarlık Hizmetleri"
+msgstr "Taşınmaz Kültür Varlıklarına İlişkin Teslimler ve Mimarlık Hizmetleri"
+
+#. module: account_tr
+#: model:account.tax.group,name:account_tr.tax_group_telsiz_kullanim_ucreti
+msgid "Telsiz Kullanım Ücreti"
+msgstr "Telsiz Kullanım Ücreti"
+
+#. module: account_tr
+#: model:account.tax.group,name:account_tr.tax_group_telsiz_ruhsat_ucreti
+msgid "Telsiz Ruhsat Ücreti"
+msgstr "Telsiz Ruhsat Ücreti"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_8_temizlik_hizmeti
+msgid "Temizlik Hizmeti[KDVGUT-(I/C-2.1.3.2.10)]"
+msgstr "Temizlik Hizmeti[KDVGUT-(I/C-2.1.3.2.10)]"
+
+#. module: account_tr
+#: model:ir.model,name:account_tr.model_account_account_template
+msgid "Templates for Accounts"
+msgstr "Hesap Şablonları"
+
+#. module: account_tr
+#: model:ir.model,name:account_tr.model_account_tax_template
+msgid "Templates for Taxes"
+msgstr "Vergi Şablonları"
+
+#. module: account_tr
+#: model:ir.model.fields.selection,name:account_tr.selection__account_account_template__account_type__equity_cpl
+msgid "Term Profit & Loss"
+msgstr "Term Profit & Loss"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_tesvikli_yatirim_mallari_teslimi
+msgid "Teşvikli Yatırım Mallarının Teslimi"
+msgstr "Teşvikli Yatırım Mallarının Teslimi"
+
+#. module: account_tr
+#: model:ir.model.fields,help:account_tr.field_res_partner__vat
+#: model:ir.model.fields,help:account_tr.field_res_users__vat
+msgid ""
+"The Tax Identification Number. Values here will be validated based on the "
+"country format. You can use '/' to indicate that the partner is not subject "
+"to tax."
+msgstr ""
+"Vergi Kimlik Numarası. Buradaki değerler ülke biçimine göre doğrulanır. "
+"Ortağın vergiye tabi olmadığını belirtmek için '/' kullanabilirsiniz."
+
+#. module: account_tr
+#. odoo-python
+#: code:addons/account_tr/models/account_vat_controls.py:0
+#, python-format
+msgid "The VAT %s already exists in another partner."
+msgstr "The VAT %s already exists in another partner."
+
+#. module: account_tr
+#: model:ir.model.fields,help:account_tr.field_account_account_template__account_type
+msgid ""
+"These types are defined according to your country. The type contains more "
+"information about the account and its specificities."
+msgstr ""
+"Bu tipler ülkenize göre tanımlanmıştır. Bu tip, hesap ve özellikleri "
+"hakkında daha çok bilgi içerir."
+
+#. module: account_tr
+#. odoo-python
+#: code:addons/account_tr/models/res_partner.py:0
+#, python-format
+msgid "This reference is equal to partner '%s'"
+msgstr "Bu referans iş ortağına eşit '%s'"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_8_ticari_reklam_hizmetleri
+msgid "Ticari Reklam Hizmetleri [KDVGUT-(I/C-2.1.3.2.15)]"
+msgstr "Ticari Reklam Hizmetleri [KDVGUT-(I/C-2.1.3.2.15)]"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_8_turistik_magazalara_verilen_musteri_bulma_goturme_hizmetleri
+msgid ""
+"Turistik Mağazalara Verilen Müşteri Bulma / Götürme Hizmetleri[KDVGUT-(I/"
+"C-2.1.3.2.8)]"
+msgstr ""
+"Turistik Mağazalara Verilen Müşteri Bulma / Götürme Hizmetleri[KDVGUT-(I/"
+"C-2.1.3.2.8)]"
+
+#. module: account_tr
+#: model:ir.model.fields,field_description:account_tr.field_account_account__account_type
+#: model:ir.model.fields,field_description:account_tr.field_account_account_template__account_type
+msgid "Type"
+msgstr "Tür"
+
+#. module: account_tr
+#: model:ir.model.fields,field_description:account_tr.field_account_account__specifier
+msgid "Type Specifier"
+msgstr "Tür Belirteçi"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_turkakim_gaz_boru_hatti_projesine_iliskin_anlasmasinin_9_b_maddesinde_yer_alan
+msgid ""
+"TürkAkım Gaz Boru Hattı Projesine İlişkin Anlaşmanın (9/b) Maddesinde Yer "
+"Alan\n"
+"                Hizmetler"
+msgstr ""
+"TürkAkım Gaz Boru Hattı Projesine İlişkin Anlaşmanın (9/b) Maddesinde Yer "
+"Alan\n"
+"                Hizmetler"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_turakkim_gaz_boruhatti_projesine_isliskin_anlasmanin_9_h_maddesi
+msgid ""
+"TürkAkım Gaz Boru Hattı Projesine İlişkin Anlaşmanın (9/h) Maddesi "
+"Kapsamında Alınan\n"
+"                Teslim ve Hizmetler"
+msgstr ""
+"TürkAkım Gaz Boru Hattı Projesine İlişkin Anlaşmanın (9/h) Maddesi "
+"Kapsamında Alınan\n"
+"                Teslim ve Hizmetler"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_turkakim_gaz_boru_hatti_projesine_iliskin
+msgid ""
+"TürkAkım Gaz Boru Hattı Projesine İlişkin Anlaşmanın (9/h) Maddesi "
+"Kapsamındaki Gaz\n"
+"                Taşıma Hizmetleri"
+msgstr ""
+"TürkAkım Gaz Boru Hattı Projesine İlişkin Anlaşmanın (9/h) Maddesi "
+"Kapsamındaki Gaz\n"
+"                Taşıma Hizmetleri"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_turkiye_kizilay_dernegi
+msgid ""
+"Türkiye Kızılay Derneğine Yapılan Teslim ve Hizmetler ile Türkiye Kızılay "
+"Derneğinin\n"
+"                Teslim ve Hizmetleri"
+msgstr ""
+"Türkiye Kızılay Derneğine Yapılan Teslim ve Hizmetler ile Türkiye Kızılay "
+"Derneğinin\n"
+"                Teslim ve Hizmetleri"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_turkiye_de_ikamet_etmeyenlere_kdv_hesaplanarak_yapilan_satislar
+msgid ""
+"Türkiye'de İkamet Etmeyenlere KDV Hesaplanarak Yapılan Satışlar(Yolcu "
+"Beraberi Eşya)\n"
+"                [KDVGUT-(II/A-5)]"
+msgstr ""
+"Türkiye'de İkamet Etmeyenlere KDV Hesaplanarak Yapılan Satışlar(Yolcu "
+"Beraberi Eşya)\n"
+"                [KDVGUT-(II/A-5)]"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_ticari_reklam_hizmetleri
+msgid "TİCARİ REKLAM HİZMETLERİ [KDVGUT-(I/C-2.1.3.2.15)]"
+msgstr "TİCARİ REKLAM HİZMETLERİ [KDVGUT-(I/C-2.1.3.2.15)]"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_uefa_musabakalari_kapsaminda_yapilacak_teslim_ve_hizmetler
+msgid "UEFA Müsabakaları Kapsamında Yapılacak Teslim ve Hizmetler"
+msgstr "UEFA Müsabakaları Kapsamında Yapılacak Teslim ve Hizmetler"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_ulusal_guvenlik_amacli_teslim_ve_hizmetler
+msgid "Ulusal Güvenlik Amaçlı Teslim ve Hizmetler"
+msgstr "Ulusal Güvenlik Amaçlı Teslim ve Hizmetler"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_uluslararasi_kuruluslara_yapilan_teslim_ve_hizmetler
+msgid "Uluslararası Kuruluşlara Yapılan Teslim ve Hizmetler"
+msgstr "Uluslararası Kuruluşlara Yapılan Teslim ve Hizmetler"
+
+#. module: account_tr
+#: model:ir.model.fields,field_description:account_tr.field_res_company__account_tr
+msgid "Unique partner reference for"
+msgstr "Benzersiz iş ortağı referansı : "
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_usulune_gore_yururluge_girmis_uluslararasi_anlasmlar_kapsamindaki_istisnalar
+msgid ""
+"Usulüne Göre Yürürlüğe Girmiş Uluslararası Anlaşmalar Kapsamındaki "
+"İstisnalar(İade Hakkı\n"
+"                Tanınan)"
+msgstr ""
+"Usulüne Göre Yürürlüğe Girmiş Uluslararası Anlaşmalar Kapsamındaki "
+"İstisnalar(İade Hakkı\n"
+"                Tanınan)"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_usulune_gore_yururluge_girmis_uluslararasi_anlasmlar_kapsamindaki
+msgid ""
+"Usulüne Göre Yürürlüğe Girmiş Uluslararası Anlaşmalar Kapsamındaki "
+"İstisnalar(İade Hakkı\n"
+"                Tanınmayan)"
+msgstr ""
+"Usulüne Göre Yürürlüğe Girmiş Uluslararası Anlaşmalar Kapsamındaki "
+"İstisnalar(İade Hakkı\n"
+"                Tanınmayan)"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_vuk_322_kapsamina_giren_borclara_ait_kdv
+msgid "VUK 322 Kapsamına Giren Borçlara Ait KDV"
+msgstr "VUK 322 Kapsamına Giren Borçlara Ait KDV"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_varlik_yonetim_sirketlerinin_islemleri
+msgid "Varlık Yönetim Şirketlerinin İşlemleri"
+msgstr "Varlık Yönetim Şirketlerinin İşlemleri"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_varliklarin_varlik_kiralama_sirlerine_devri_ile_bu_varliklarin_varlik_kiralama_sirketlerince_kiralanmasi
+msgid ""
+"Varlıkların Varlık Kiralama Şirketlerine Devri ile Bu Varlıkların Varlık "
+"Kiralama\n"
+"                Şirketlerince Kiralanması ve Devralınan Kuruma Devri"
+msgstr ""
+"Varlıkların Varlık Kiralama Şirketlerine Devri ile Bu Varlıkların Varlık "
+"Kiralama\n"
+"                Şirketlerince Kiralanması ve Devralınan Kuruma Devri"
+
+#. module: account_tr
+#: model:ir.model.fields,field_description:account_tr.field_account_tax__witholding_rate
+#: model:ir.model.fields,field_description:account_tr.field_account_tax_template__witholding_rate
+msgid "Withholding Rate"
+msgstr "Stopaj Oranı"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_yapi_denetim_hizmetleri
+msgid "YAPI DENETİM HİZMETLERİ *GT 117-Bölüm (3.2.6)+"
+msgstr "YAPI DENETİM HİZMETLERİ *GT 117-Bölüm (3.2.6)+"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_yapim_muhendislik_mimarlik_etut_proje_hizmetleri
+msgid ""
+"YAPIM İŞLERİ İLE BU İŞLERLE BİRLİKTE İFA EDİLEN MÜHENDİSLİKMİMARLIK VE ETÜT-"
+"PROJE\n"
+"                HİZMETLERİ *GT 117-Bölüm (3.2.1)+"
+msgstr ""
+"YAPIM İŞLERİ İLE BU İŞLERLE BİRLİKTE İFA EDİLEN MÜHENDİSLİKMİMARLIK VE ETÜT-"
+"PROJE\n"
+"                HİZMETLERİ *GT 117-Bölüm (3.2.1)+"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_yemek_servis_hizmeti
+msgid "YEMEK SERVİS HİZMETİ *GT 117-Bölüm (3.2.4)+"
+msgstr "YEMEK SERVİS HİZMETİ *GT 117-Bölüm (3.2.4)+"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_yabanci_diplomatik_organ_ve_hayir_kurumlari_mal_hizmet_alislari
+msgid ""
+"Yabancı Diplomatik Organ ve Hayır Kurumlarının Yapacakları Bağışlarla "
+"İlgili Mal ve\n"
+"                Hizmet Alışları"
+msgstr ""
+"Yabancı Diplomatik Organ ve Hayır Kurumlarının Yapacakları Bağışlarla "
+"İlgili Mal ve\n"
+"                Hizmet Alışları"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_yabancilara_verilen_saglik_hizmetlerinde_istisna
+msgid "Yabancılara Verilen Sağlık Hizmetlerinde İstisna"
+msgstr "Yabancılara Verilen Sağlık Hizmetlerinde İstisna"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_8_yapi_denetim_hizmetleri
+msgid "Yapı Denetim Hizmetleri[KDVGUT-(I/C-2.1.3.2.6)]"
+msgstr "Yapı Denetim Hizmetleri[KDVGUT-(I/C-2.1.3.2.6)]"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_8_yapim_isleri_ile_bu_islerle_birlikte_ifa_edilen_muhendislik
+msgid ""
+"Yapım İşleri ile Bu İşlerle Birlikte İfa Edilen Mühendislik-Mimarlık ve "
+"Etüt-Proje\n"
+"                Hizmetleri[KDVGUT-(I/C-2.1.3.2.1)]"
+msgstr ""
+"Yapım İşleri ile Bu İşlerle Birlikte İfa Edilen Mühendislik-Mimarlık ve "
+"Etüt-Proje\n"
+"                Hizmetleri[KDVGUT-(I/C-2.1.3.2.1)]"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_yem_teslimleri
+msgid "Yem Teslimleri"
+msgstr "Yem Teslimleri"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_8_yemek_servis_hizmeti
+msgid "Yemek Servis Hizmeti[KDVGUT-(I/C-2.1.3.2.4)]"
+msgstr "Yemek Servis Hizmeti[KDVGUT-(I/C-2.1.3.2.4)]"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_yuk_tasimaciligi_hizmeti
+msgid "YÜK TAŞIMACILIĞI HİZMETİ [KDVGUT-(I/C-2.1.3.2.11)]"
+msgstr "YÜK TAŞIMACILIĞI HİZMETİ [KDVGUT-(I/C-2.1.3.2.11)]"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_8_yuk_tasimaciligi_hizmeti
+msgid "Yük Taşımacılığı Hizmeti [KDVGUT-(I/C-2.1.3.2.11)]"
+msgstr "Yük Taşımacılığı Hizmeti [KDVGUT-(I/C-2.1.3.2.11)]"
+
+#. module: account_tr
+#: model:account.tax.group,name:account_tr.tax_group_yillik_gelir_vergisi
+msgid "Yıllık Gelir Vergisi"
+msgstr "Yıllık Gelir Vergisi"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_zirai_amacli_su_teslimleri_ile_koy_tuzel_kisiliklerince_yapilan
+msgid ""
+"Zirai Amaçlı Su Teslimleri ile Köy Tüzel Kişiliklerince Yapılan İçme Suyu "
+"Teslimleri"
+msgstr ""
+"Zirai Amaçlı Su Teslimleri ile Köy Tüzel Kişiliklerince Yapılan İçme Suyu "
+"Teslimleri"
+
+#. module: account_tr
+#: model_terms:ir.ui.view,arch_db:account_tr.view_tax_office_tree
+msgid "account.tax.office"
+msgstr "account.tax.office"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_cevre_bakim_hizmetleri
+msgid "ÇEVRE VE BAHÇE BAKIM HİZMETLERİ *GT 117-Bölüm (3.2.10)+"
+msgstr "ÇEVRE VE BAHÇE BAKIM HİZMETLERİ *GT 117-Bölüm (3.2.10)+"
+
+#. module: account_tr
+#: model:account.tax.group,name:account_tr.tax_group_cevre_temizlik_vergisi
+msgid "Çevre Temizlik Vergisi"
+msgstr "Çevre Temizlik Vergisi"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_8_cevre_ve_bahce_bakim_hizmetleri
+msgid "Çevre ve Bahçe Bakım Hizmetleri[KDVGUT-(I/C-2.1.3.2.10)]"
+msgstr "Çevre ve Bahçe Bakım Hizmetleri[KDVGUT-(I/C-2.1.3.2.10)]"
+
+#. module: account_tr
+#: model:account.tax.group,name:account_tr.tax_group_otv1
+msgid "ÖTV (1.Liste)"
+msgstr "ÖTV (1.Liste)"
+
+#. module: account_tr
+#: model:account.tax.group,name:account_tr.tax_group_otv3
+msgid "ÖTV (3.Liste)"
+msgstr "ÖTV (3.Liste)"
+
+#. module: account_tr
+#: model:account.tax.group,name:account_tr.tax_group_otv3a
+msgid "ÖTV (3A Liste)"
+msgstr "ÖTV (3A Liste)"
+
+#. module: account_tr
+#: model:account.tax.group,name:account_tr.tax_group_otv3b
+msgid "ÖTV (3B Liste)"
+msgstr "ÖTV (3B Liste)"
+
+#. module: account_tr
+#: model:account.tax.group,name:account_tr.tax_group_otv3c
+msgid "ÖTV (3C Liste)"
+msgstr "ÖTV (3C Liste)"
+
+#. module: account_tr
+#: model:account.tax.group,name:account_tr.tax_group_otv4
+msgid "ÖTV (4.Liste)"
+msgstr "ÖTV (4.Liste)"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_ozel_guvenlik_hizmeti
+msgid "ÖZEL GÜVENLİK HİZMETİ *GT 117-Bölüm (3.2.5)+"
+msgstr "ÖZEL GÜVENLİK HİZMETİ *GT 117-Bölüm (3.2.5)+"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_8_ozel_guvenlik_hizmeti
+msgid "Özel Güvenlik Hizmeti[KDVGUT-(I/C-2.1.3.2.5)]"
+msgstr "Özel Güvenlik Hizmeti[KDVGUT-(I/C-2.1.3.2.5)]"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_ozel_okullar_universite_ve_yuksekokullar_tarafindan_verilen_bedelsiz_egitim
+msgid ""
+"Özel Okullar, Üniversite ve Yüksekokullar Tarafından Verilen Bedelsiz "
+"Eğitim ve Öğretim\n"
+"                Hizmetleri"
+msgstr ""
+"Özel Okullar, Üniversite ve Yüksekokullar Tarafından Verilen Bedelsiz "
+"Eğitim ve Öğretim\n"
+"                Hizmetleri"
+
+#. module: account_tr
+#: model:account.tax.group,name:account_tr.tax_group_ozel_iletisim_vergisi
+msgid "Özel İletişim Vergisi"
+msgstr "Özel İletişim Vergisi"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_imalat_sanayiine_yonetlik_yatirim_tesvik_belgesi_kapsamindaki_isler
+msgid ""
+"İMALAT SANAYİİNE YÖNELİK YATIRIM TEŞVİK BELGESİ KAPSAMINDAKİ İNŞAAT İŞLERİ"
+msgstr ""
+"İMALAT SANAYİİNE YÖNELİK YATIRIM TEŞVİK BELGESİ KAPSAMINDAKİ İNŞAAT İŞLERİ"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_ismep_kapsaminda_teslim_ve_hizmetler
+msgid ""
+"İSMEP Kapsamında, İstanbul İl Özel İdaresine Bağlı Olarak Faaliyet Gösteren "
+"İstanbul\n"
+"                Proje Koordinasyon Birimine Yapılacak Teslim ve Hizmetler"
+msgstr ""
+"İSMEP Kapsamında, İstanbul İl Özel İdaresine Bağlı Olarak Faaliyet Gösteren "
+"İstanbul\n"
+"                Proje Koordinasyon Birimine Yapılacak Teslim ve Hizmetler"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_istisnadan_vazgeçenlerin_hurda_ve_atik_teslimi
+msgid "İSTİSNADAN VAZGEÇENLERİN HURDA VE ATIK TESLİMİ [GT 117-Bölüm (3.3.3)]"
+msgstr "İSTİSNADAN VAZGEÇENLERİN HURDA VE ATIK TESLİMİ [GT 117-Bölüm (3.3.3)]"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_ihrac_kayitli_satislar
+msgid ""
+"İhraç Kayıtlı Satışlar - 3065 Sayılı KDV Kanununun 11/1-c maddesi "
+"kapsamında ihraç kaydıyla satış yapıldığından KDV tahsil edilmemiştir."
+msgstr ""
+"İhraç Kayıtlı Satışlar - 3065 Sayılı KDV Kanununun 11/1-c maddesi "
+"kapsamında ihraç kaydıyla satış yapıldığından KDV tahsil edilmemiştir."
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_ihrac_konusu_esyayi_tasiyan_kamyon_cekici_motorin_teslimleri
+msgid ""
+"İhraç Konusu Eşyayı Taşıyan Kamyon, Çekici ve Yarı Römorklara Yapılan "
+"Motorin\n"
+"                Teslimleri"
+msgstr ""
+"İhraç Konusu Eşyayı Taşıyan Kamyon, Çekici ve Yarı Römorklara Yapılan "
+"Motorin\n"
+"                Teslimleri"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_iki_tam_yil_sureyle_sahip_olunan_tasinmaz_ve_istirak_hissesi_satislari
+msgid "İki Tam Yıl Süreyle Sahip Olunan Taşınmaz ve İştirak Hissesi Satışları"
+msgstr ""
+"İki Tam Yıl Süreyle Sahip Olunan Taşınmaz ve İştirak Hissesi Satışları"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_imalat_sanayiinde_kullanilmak_uzere_yapilan_yeni_makina
+msgid ""
+"İmalat Sanayiinde Kullanılmak Üzere Yapılan Yeni Makina ve Teçhizat "
+"Teslimlerinde\n"
+"                İstisna"
+msgstr ""
+"İmalat Sanayiinde Kullanılmak Üzere Yapılan Yeni Makina ve Teçhizat "
+"Teslimlerinde\n"
+"                İstisna"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_istisna_olmayan_diger
+msgid "İstisna Olmayan Diğer"
+msgstr "İstisna Olmayan Diğer"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_8_istisnadan_vazgecenlerin_hurda_ve_atik_teslimi
+msgid "İstisnadan Vazgeçenlerin Hurda ve Atık Teslimi[KDVGUT-(I/C-2.1.3.3.3)]"
+msgstr ""
+"İstisnadan Vazgeçenlerin Hurda ve Atık Teslimi[KDVGUT-(I/C-2.1.3.3.3)]"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_ithalde_odenen_kdv
+msgid "İthalde Ödenen KDV"
+msgstr "İthalde Ödenen KDV"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_isgucu_temin_hizmetleri
+msgid "İŞGÜCÜ TEMİN HİZMETLERİ *GT 117-Bölüm (3.2.5)+"
+msgstr "İŞGÜCÜ TEMİN HİZMETLERİ *GT 117-Bölüm (3.2.5)+"
+
+#. module: account_tr
+#: model_terms:account.fiscal.position,note:account_tr.1_fpt_8_isgucu_temin_hizmetleri
+msgid "İşgücü Temin Hizmetleri[KDVGUT-(I/C-2.1.3.2.5)]"
+msgstr "İşgücü Temin Hizmetleri[KDVGUT-(I/C-2.1.3.2.5)]"

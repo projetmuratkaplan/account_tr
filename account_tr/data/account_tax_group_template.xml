@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+	    <record id="tax_group_yillik_gelir_vergisi" model="account.tax.group">
+			<field name="name">Yıllık Gelir Vergisi</field>
+			<field name="sequence">01</field>
+			<field name="country_id" ref="base.tr"/>
+		</record>
+        <record id="tax_group_gelir_vergisi_stopaji" model="account.tax.group">
+			<field name="name">Gelir Vergisi Stopajı</field>
+			<field name="sequence">03</field>
+			<field name="country_id" ref="base.tr"/>
+		</record>
+		<record id="tax_group_kurumlar_vergisi" model="account.tax.group">
+			<field name="name">Kurumlar Vergisi</field>
+			<field name="sequence">10</field>
+			<field name="country_id" ref="base.tr"/>
+		</record>
+		<record id="tax_group_kurumlar_vergisi_stopaji" model="account.tax.group">
+			<field name="name">Kurumlar Vergisi Stopajı</field>
+			<field name="sequence">11</field>
+			<field name="country_id" ref="base.tr"/>
+		</record>
+		<record id="tax_group_kdv" model="account.tax.group">
+			<field name="name">Katma Değer Vergisi(KDV)</field>
+			<field name="sequence">15</field>
+			<field name="country_id" ref="base.tr"/>
+		</record>
+		<record id="tax_group_gelir_gecici_vergi" model="account.tax.group">
+			<field name="name">Gelir Geçici Vergi</field>
+			<field name="sequence">32</field>
+			<field name="country_id" ref="base.tr"/>
+		</record>
+		<record id="tax_group_kurum_gecici_vergi" model="account.tax.group">
+			<field name="name">Kurum Geçici Vergi</field>
+			<field name="sequence">33</field>
+			<field name="country_id" ref="base.tr"/>
+		</record>
+		<record id="tax_group_kkdf" model="account.tax.group">
+			<field name="name">Kaynak Kullanımı Destekleme Fonu (KKDF) Kesintisi</field>
+			<field name="sequence">61</field>
+			<field name="country_id" ref="base.tr"/>
+		</record>
+		<record id="tax_group_otv1" model="account.tax.group">
+			<field name="name">ÖTV (1.Liste)</field>
+			<field name="sequence">71</field>
+			<field name="country_id" ref="base.tr"/>
+		</record>
+		<record id="tax_group_otv3" model="account.tax.group">
+			<field name="name">ÖTV (3.Liste)</field>
+			<field name="sequence">73</field>
+			<field name="country_id" ref="base.tr"/>
+		</record>
+		<record id="tax_group_otv4" model="account.tax.group">
+			<field name="name">ÖTV (4.Liste)</field>
+			<field name="sequence">74</field>
+			<field name="country_id" ref="base.tr"/>
+		</record>
+		<record id="tax_group_otv3a" model="account.tax.group">
+			<field name="name">ÖTV (3A Liste)</field>
+			<field name="sequence">75</field>
+			<field name="country_id" ref="base.tr"/>
+		</record>
+		<record id="tax_group_otv3b" model="account.tax.group">
+			<field name="name">ÖTV (3B Liste)</field>
+			<field name="sequence">76</field>
+			<field name="country_id" ref="base.tr"/>
+		</record>
+		<record id="tax_group_otv3c" model="account.tax.group">
+			<field name="name">ÖTV (3C Liste)</field>
+			<field name="sequence">77</field>
+			<field name="country_id" ref="base.tr"/>
+		</record>
+		<record id="tax_group_mahsuplardan_kesilen_damga_vergisi" model="account.tax.group">
+			<field name="name">Mahsuplardan Kesilen Damga Vergisi</field>
+			<field name="sequence">1018</field>
+			<field name="country_id" ref="base.tr"/>
+		</record>
+		<record id="tax_group_damga_vergisi" model="account.tax.group">
+			<field name="name">Damga Vergisi</field>
+			<field name="sequence">1047</field>
+			<field name="country_id" ref="base.tr"/>
+		</record>
+		<record id="tax_group_5035_damga_vergisi" model="account.tax.group">
+			<field name="name">5035 Sayılı Kanuna Göre Damga Vergisi</field>
+			<field name="sequence">1048</field>
+			<field name="country_id" ref="base.tr"/>
+		</record>
+		<record id="tax_group_elektrik_ve_havagazi_tuketim_vergisi" model="account.tax.group">
+			<field name="name">Elektrik ve Havagazı Tüketim Vergisi</field>
+			<field name="sequence">4071</field>
+			<field name="country_id" ref="base.tr"/>
+		</record>
+		<record id="tax_group_ozel_iletisim_vergisi" model="account.tax.group">
+			<field name="name">Özel İletişim Vergisi</field>
+			<field name="sequence">4080</field>
+			<field name="country_id" ref="base.tr"/>
+		</record>
+		<record id="tax_group_5035_ozel_iletisim_vergisi" model="account.tax.group">
+			<field name="name">5035 Sayılı Kanuna Göre Özel İletişim Vergisi</field>
+			<field name="sequence">4081</field>
+			<field name="country_id" ref="base.tr"/>
+		</record>
+		<record id="tax_group_kdv_tevkifati" model="account.tax.group">
+			<field name="name">Katma Değer Vergisi Tevkifatı</field>
+			<field name="sequence">9015</field>
+			<field name="country_id" ref="base.tr"/>
+		</record>
+		<record id="tax_group_4961_banka_sigorta_muameleleri_vergisi" model="account.tax.group">
+			<field name="name">4961 Banka Sigorta Muameleleri Vergisi</field>
+			<field name="sequence">9021</field>
+			<field name="country_id" ref="base.tr"/>
+		</record>
+		<record id="tax_group_borsa_tescil_ucreti" model="account.tax.group">
+			<field name="name">Borsa Tescil Ücreti</field>
+			<field name="sequence">8001</field>
+			<field name="country_id" ref="base.tr"/>
+		</record>
+		<record id="tax_group_enerji_fonu" model="account.tax.group">
+			<field name="name">Enerji Fonu</field>
+			<field name="sequence">8002</field>
+			<field name="country_id" ref="base.tr"/>
+		</record>
+		<record id="tax_group_belediye_tuketim_vergisi" model="account.tax.group">
+			<field name="name">Belediye Tüketim Vergisi</field>
+			<field name="sequence">8003</field>
+			<field name="country_id" ref="base.tr"/>
+		</record>
+		<record id="tax_group_trt_payi" model="account.tax.group">
+			<field name="name">TRT Payı</field>
+			<field name="sequence">8004</field>
+			<field name="country_id" ref="base.tr"/>
+		</record>
+		<record id="tax_group_elektrik_tuketim_vergisi" model="account.tax.group">
+			<field name="name">Elektrik Tüketim Vergisi</field>
+			<field name="sequence">8005</field>
+			<field name="country_id" ref="base.tr"/>
+		</record>
+		<record id="tax_group_telsiz_kullanim_ucreti" model="account.tax.group">
+			<field name="name">Telsiz Kullanım Ücreti</field>
+			<field name="sequence">8006</field>
+			<field name="country_id" ref="base.tr"/>
+		</record>
+		<record id="tax_group_telsiz_ruhsat_ucreti" model="account.tax.group">
+			<field name="name">Telsiz Ruhsat Ücreti</field>
+			<field name="sequence">8007</field>
+			<field name="country_id" ref="base.tr"/>
+		</record>
+		<record id="tax_group_cevre_temizlik_vergisi" model="account.tax.group">
+			<field name="name">Çevre Temizlik Vergisi</field>
+			<field name="sequence">8008</field>
+			<field name="country_id" ref="base.tr"/>
+		</record>
+    </data>
+</odoo>

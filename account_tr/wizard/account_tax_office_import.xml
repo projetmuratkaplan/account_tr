@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <!-- Custom view for importing Tax Office data from XML -->
+    <data>
+        <!-- Define a view for the XML import wizard -->
+        <record model="ir.ui.view" id="stock_edespatch_import_xml_view">
+            <field name="name">Türkiye Tax Office XML Import</field>
+            <field name="model">account.tax.office.import</field>
+            <field name="arch" type="xml">
+                <!-- XML import wizard form layout -->
+                <form string="XML Import">
+                    <p>You can import tax office with this wizard.</p>
+                    <group>
+                        <group>
+                            <field name="xml_file" required="1"/>
+                        </group>
+                    </group>
+                    <footer>
+                        <!-- Import button and Cancel button -->
+                        <button name="import_xml" string="Import XML" type="object" class="oe_highlight"/>
+                        or
+                        <button string="Cancel" class="oe_link" special="cancel"/>
+                    </footer>
+                </form>
+            </field>
+        </record>
+
+        <!-- Define an action for opening the XML import view -->
+        <record id="action_eidespatch_import_xml" model="ir.actions.act_window">
+            <field name="name">Türkiye Tax Office XML Import</field>
+            <field name="res_model">account.tax.office.import</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="stock_edespatch_import_xml_view"/>
+            <field name="target">new</field>
+        </record>
+
+        <!-- Add a menu item for Tax Offices Import (EBYN) -->
+        <menuitem name="Tax Offices Import (EBYN)" id="menu_tax_office_import"
+                  action="action_eidespatch_import_xml" parent="account.account_account_menu" sequence="2"/>
+    </data>
+</odoo>

@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record model='res.bank' id='tr_ptt'>
+            <field name='name'>PTT Bankası</field>
+            <field name='bic'></field>
+            <field name='active'>1</field>
+            <field name='street'>Şehit Teğmen Kalmaz Cad.No: 2</field>
+            <field name='street2'></field>
+            <field name='city'>Ulus</field>
+            <field search="[('code','=','06'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>312-309 51 44</field>
+            <field name='eft_code'>0000</field>
+        </record>
+        <record model='res.bank' id='tr_ziraat'>
+            <field name='name'>Ziraat Bankası</field>
+            <field name='bic'>TCZBTR2A</field>
+            <field name='active'>1</field>
+            <field name='street'>Doğanbey Mah. Atatürk Bulvarı No 8</field>
+            <field name='street2'></field>
+            <field name='city'>Ulus</field>
+            <field search="[('code','=','06'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>312-584 20 00</field>
+            <field name='eft_code'>0010</field>
+        </record>
+        <record model='res.bank' id='tr_halk'>
+            <field name='name'>Halk Bankası</field>
+            <field name='bic'>TRHBTR2A</field>
+            <field name='active'>1</field>
+            <field name='street'>Barbaros Mahallesi</field>
+            <field name='street2'>Şebboy Sokak No:4</field>
+            <field name='city'>Ataşehir</field>
+            <field search="[('code','=','34'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>216-503 70 70</field>
+            <field name='eft_code'>0012</field>
+        </record>
+        <record model='res.bank' id='tr_vakiflar'>
+            <field name='name'>Vakıflar Bankası</field>
+            <field name='bic'>TVBATR2A</field>
+            <field name='active'>1</field>
+            <field name='street'>Sanayi Mahallesi Eski Büyükdere Caddesi</field>
+            <field name='street2'>Güler Sokak No: 51</field>
+            <field name='city'>Kağıthane</field>
+            <field search="[('code','=','34'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>212-398 15 15</field>
+            <field name='eft_code'>0015</field>
+        </record>
+        <record model='res.bank' id='tr_adabank'>
+            <field name='name'>Adabank</field>
+            <field name='bic'>ADABTRIS</field>
+            <field name='active'>1</field>
+            <field name='street'>Büyükdere Cad. Rumelihan No 40 Kat 2</field>
+            <field name='street2'></field>
+            <field name='city'>Mecidiyeköy</field>
+            <field search="[('code','=','34'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>212-272 64 20</field>
+            <field name='eft_code'>0100</field>
+        </record>
+        <record model='res.bank' id='tr_akbank'>
+            <field name='name'>Akbank</field>
+            <field name='bic'>AKBKTRIS</field>
+            <field name='active'>1</field>
+            <field name='street'>Sabancı Center</field>
+            <field name='street2'></field>
+            <field name='city'>4.Levent</field>
+            <field search="[('code','=','34'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>212-385 55 55</field>
+            <field name='eft_code'>0046</field>
+        </record>
+        <record model='res.bank' id='tr_anadolu'>
+            <field name='name'>Anadolubank</field>
+            <field name='bic'>ANDLTRIS</field>
+            <field name='active'>1</field>
+            <field name='street'>Cumhuriyet Mah. Silahşör Cad. No 69</field>
+            <field name='street2'>Bomonti</field>
+            <field name='city'>Şişli</field>
+            <field search="[('code','=','34'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>212-368 70 00</field>
+            <field name='eft_code'>0135</field>
+        </record>
+        <record model='res.bank' id='tr_fiba'>
+            <field name='name'>Fibabanka</field>
+            <field name='bic'>FBHLTRIS</field>
+            <field name='active'>1</field>
+            <field name='street'>Emirhan Caddesi Barbaros Plaza İş Merkezi</field>
+            <field name='street2'>No 113 Dikilitaş</field>
+            <field name='city'>Beşiktaş</field>
+            <field search="[('code','=','34'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>212-381 82 00</field>
+            <field name='eft_code'>0103</field>
+        </record>
+        <record model='res.bank' id='tr_sekerbank'>
+            <field name='name'>Şekerbank</field>
+            <field name='bic'>SEKETR2A</field>
+            <field name='active'>1</field>
+            <field name='street'>Büyükdere Caddesi No 171 Metrocity A- Blok</field>
+            <field name='street2'>Esentepe</field>
+            <field name='city'>Mecidiyeköy</field>
+            <field search="[('code','=','34'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>212-319 70 00</field>
+            <field name='eft_code'>0059</field>
+        </record>
+        <record model='res.bank' id='tr_tekstil'>
+            <field name='name'>ICBC Bank Turkey</field>
+            <field name='bic'>TEKBTRIS</field>
+            <field name='active'>1</field>
+            <field name='street'>Maslak Mah. Dereboyu/2 Cad. No 13</field>
+            <field name='street2'></field>
+            <field name='city'>Sarıyer</field>
+            <field search="[('code','=','34'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>212-335 53 35</field>
+            <field name='eft_code'>0109</field>
+        </record>
+        <record model='res.bank' id='tr_turkish'>
+            <field name='name'>Turkish Bank</field>
+            <field name='bic'>TUBATRIS</field>
+            <field name='active'>1</field>
+            <field name='street'>Vali Konağı Cad. No 1</field>
+            <field name='street2'>Nişantaşı</field>
+            <field name='city'>Şişli</field>
+            <field search="[('code','=','34'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>212-373 63 73</field>
+            <field name='eft_code'>0096</field>
+        </record>
+        <record model='res.bank' id='tr_teb'>
+            <field name='name'>Türk Ekonomi Bankası (TEB)</field>
+            <field name='bic'>TEBUTRIS</field>
+            <field name='active'>1</field>
+            <field name='street'>TEB Kampüs C ve D Blok Saray Mah.</field>
+            <field name='street2'>Sokullu Cad. No. 7A-7B 34768</field>
+            <field name='city'>Ümraniye</field>
+            <field search="[('code','=','34'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>216-635 35 35</field>
+            <field name='eft_code'>0032</field>
+        </record>
+        <record model='res.bank' id='tr_garanti'>
+            <field name='name'>Garanti Bankası</field>
+            <field name='bic'>TGBATRIS</field>
+            <field name='active'>1</field>
+            <field name='street'>Nispetiye Mah. Aytar Cad. No 2</field>
+            <field name='street2'>Levent</field>
+            <field name='city'>Beşiktaş</field>
+            <field search="[('code','=','34'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>212-318 18 18</field>
+            <field name='eft_code'>0062</field>
+        </record>
+        <record model='res.bank' id='tr_is'>
+            <field name='name'>İş Bankası</field>
+            <field name='bic'>ISBKTRIS</field>
+            <field name='active'>1</field>
+            <field name='street'>İş Kuleleri Levent</field>
+            <field name='street2'></field>
+            <field name='city'>Beşiktaş</field>
+            <field search="[('code','=','34'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>212-316 00 00</field>
+            <field name='eft_code'>0064</field>
+        </record>
+        <record model='res.bank' id='tr_ykb'>
+            <field name='name'>Yapı ve Kredi Bankası (YKB)</field>
+            <field name='bic'>YAPITRISFEX</field>
+            <field name='active'>1</field>
+            <field name='street'>Yapı Kredi Plaza D Blok</field>
+            <field name='street2'>Levent</field>
+            <field name='city'>Beşiktaş</field>
+            <field search="[('code','=','34'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>212-339 70 00</field>
+            <field name='eft_code'>0067</field>
+        </record>
+        <record model='res.bank' id='tr_birlesikfon'>
+            <field name='name'>Birleşik Fon Bankası</field>
+            <field name='bic'>BAYDTRIS</field>
+            <field name='active'>1</field>
+            <field name='street'>Büyükdere Cad. No 143 Kat 1-2</field>
+            <field name='street2'>Esentepe</field>
+            <field name='city'>Şişli</field>
+            <field search="[('code','=','34'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>212-340 10 00</field>
+            <field name='eft_code'>0029</field>
+        </record>
+        <record model='res.bank' id='tr_alternatifbank'>
+            <field name='name'>Alternatifbank</field>
+            <field name='bic'>ALFBTRIS</field>
+            <field name='active'>1</field>
+            <field name='street'>Cumhuriyet Caddesi No. 46 Elmadağ</field>
+            <field name='street2'></field>
+            <field name='city'>Şişli</field>
+            <field search="[('code','=','34'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>212-315 65 00</field>
+            <field name='eft_code'>0124</field>
+        </record>
+        <record model='res.bank' id='tr_arapturk'>
+            <field name='name'>A&amp;T Bank </field>
+            <field name='bic'>ATUBTRIS</field>
+            <field name='active'>1</field>
+            <field name='street'>Valikonağı Cad. No 10</field>
+            <field name='street2'>Nişantaşı</field>
+            <field name='city'>Şişli</field>
+            <field search="[('code','=','34'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>212-225 05 00</field>
+            <field name='eft_code'>0091</field>
+        </record>
+        <record model='res.bank' id='tr_tokyomitsubishi'>
+            <field name='name'>Tokyo-Mitsubishi UFJ</field>
+            <field name='bic'>BOTKTRIS</field>
+            <field name='active'>1</field>
+            <field name='street'>Fatih Sultan Mehmet Mahallesi, Poligon Caddesi</field>
+            <field name='street2'>Buyaka 2 Sitesi No: 8B C-Blok, Kat: 20-21 Tepeüstü</field>
+            <field name='city'>Ümraniye</field>
+            <field search="[('code','=','34'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>216-600 30 00</field>
+            <field name='eft_code'>0147</field>
+        </record>
+        <record model='res.bank' id='tr_burgan'>
+            <field name='name'>Burgan Bank</field>
+            <field name='bic'>TEKFTRIS</field>
+            <field name='active'>1</field>
+            <field name='street'>Esentepe Mah. Büyükdere Cad. No 209</field>
+            <field name='street2'>Tekfen Tower</field>
+            <field name='city'>Şişli</field>
+            <field search="[('code','=','34'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>212-371 37 37</field>
+            <field name='eft_code'>0125</field>
+        </record>
+        <record model='res.bank' id='tr_citibank'>
+            <field name='name'>Citibank</field>
+            <field name='bic'>CITITRIX</field>
+            <field name='active'>1</field>
+            <field name='street'>Saray Mahallesi Ömer Faik Atakan Caddesi</field>
+            <field name='street2'>No 3 Yılmaz Plaza</field>
+            <field name='city'>Ümraniye</field>
+            <field search="[('code','=','34'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>216- 524 50 00</field>
+            <field name='eft_code'>0092</field>
+        </record>
+        <record model='res.bank' id='tr_denizbank'>
+            <field name='name'>Denizbank</field>
+            <field name='bic'>DENITRIS</field>
+            <field name='active'>1</field>
+            <field name='street'>Büyükdere Cad. No 141</field>
+            <field name='street2'>Esentepe</field>
+            <field name='city'>Şişli</field>
+            <field search="[('code','=','34'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>212-348 20 00</field>
+            <field name='eft_code'>0134</field>
+        </record>
+        <record model='res.bank' id='tr_deutsche'>
+            <field name='name'>Deutsche Bank</field>
+            <field name='bic'>BKTRTRIS</field>
+            <field name='active'>1</field>
+            <field name='street'>Esentepe Mah. Büyükdere Cad.</field>
+            <field name='street2'>Tekfen Tower, No 209 K:17-18</field>
+            <field name='city'>Şişli</field>
+            <field search="[('code','=','34'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>212-317 01 00</field>
+            <field name='eft_code'>0115</field>
+        </record>
+        <record model='res.bank' id='tr_finans'>
+            <field name='name'>Finansbank</field>
+            <field name='bic'>FNNBTRIS</field>
+            <field name='active'>1</field>
+            <field name='street'>Esentepe Mah. Büyükdere Cad.</field>
+            <field name='street2'>Kristal Kule Binası No 215</field>
+            <field name='city'>Şişli</field>
+            <field search="[('code','=','34'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>212-318 50 00</field>
+            <field name='eft_code'>0111</field>
+        </record>
+        <record model='res.bank' id='tr_hsbc'>
+            <field name='name'>HSBC Bank</field>
+            <field name='bic'>HSBCTRIX</field>
+            <field name='active'>1</field>
+            <field name='street'>Esentepe Mah. Büyükdere Cad. No 128</field>
+            <field name='street2'></field>
+            <field name='city'>Şişli</field>
+            <field search="[('code','=','34'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>212-376 40 00</field>
+            <field name='eft_code'>0123</field>
+        </record>
+        <record model='res.bank' id='tr_ing'>
+            <field name='name'>ING Bank</field>
+            <field name='bic'>INGBTRIS</field>
+            <field name='active'>1</field>
+            <field name='street'>Reşitpaşa Mahallesi Eski Büyükdere Cad. No 8</field>
+            <field name='street2'></field>
+            <field name='city'>Sarıyer</field>
+            <field search="[('code','=','34'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>212-335 10 00</field>
+            <field name='eft_code'>0099</field>
+        </record>
+        <record model='res.bank' id='tr_odea'>
+            <field name='name'>Odeabank</field>
+            <field name='bic'>ODEATRIS</field>
+            <field name='active'>1</field>
+            <field name='street'>Levent 199, Büyükdere Cad. No 199, Kat 33-39</field>
+            <field name='street2'></field>
+            <field name='city'>Şişli</field>
+            <field search="[('code','=','34'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>212-304 84 44</field>
+            <field name='eft_code'>0146</field>
+        </record>
+        <record model='res.bank' id='tr_rabobank'>
+            <field name='name'>Rabobank</field>
+            <field name='bic'>RABOTRIS</field>
+            <field name='active'>1</field>
+            <field name='street'>Esentepe Mah. Büyükdere Cad. Bahar Sok.</field>
+            <field name='street2'>River Plaza No: 13 K: 7 Ofis No:15-16</field>
+            <field name='city'>Şişli</field>
+            <field search="[('code','=','34'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>212-708 46 00</field>
+            <field name='eft_code'>0137</field>
+        </record>
+        <record model='res.bank' id='tr_turkland'>
+            <field name='name'>T-Bank</field>
+            <field name='bic'>TBNKTRIS</field>
+            <field name='active'>1</field>
+            <field name='street'>19 Mayıs Mah. 19 Mayıs Cad.</field>
+            <field name='street2'>Şişli Plaza A Blok No 7</field>
+            <field name='city'>Şişli</field>
+            <field search="[('code','=','34'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>212-368 34 34</field>
+            <field name='eft_code'>0108</field>
+        </record>
+        <record model='res.bank' id='tr_mellat'>
+            <field name='name'>Bank Mellat</field>
+            <field name='bic'>BKMTTRIS</field>
+            <field name='active'>1</field>
+            <field name='street'>Büyükdere Cad. Binbirçiçek Sok. No 1</field>
+            <field name='street2'></field>
+            <field name='city'>1.Levent</field>
+            <field search="[('code','=','34'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>212-279 80 15</field>
+            <field name='eft_code'>0094</field>
+        </record>
+        <record model='res.bank' id='tr_habib'>
+            <field name='name'>Habib Bank</field>
+            <field name='bic'>HABBTRIS</field>
+            <field name='active'>1</field>
+            <field name='street'>Abide-i Hürriyet Cad. Geçit Sok. No 6/A</field>
+            <field name='street2'></field>
+            <field name='city'>Şişli</field>
+            <field search="[('code','=','34'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>212-246 02 20</field>
+            <field name='eft_code'>0097</field>
+        </record>
+        <record model='res.bank' id='tr_intesasanpaolo'>
+            <field name='name'>Intesa Sanpaolo</field>
+            <field name='bic'>BCITTRIS</field>
+            <field name='active'>1</field>
+            <field name='street'>Meltem Sokak, No: 10 İş Kuleleri</field>
+            <field name='street2'>Kule 2,Kat: 21 Levent</field>
+            <field name='city'>Beşiktaş</field>
+            <field search="[('code','=','34'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>212-385 06 00</field>
+            <field name='eft_code'>0148</field>
+        </record>
+        <record model='res.bank' id='tr_jpmorganchase'>
+            <field name='name'>JPMorgan Chase Bank N.A.</field>
+            <field name='bic'>CHASTRIS</field>
+            <field name='active'>1</field>
+            <field name='street'>Büyükdere Cad. No 185</field>
+            <field name='street2'>Kanyon Ofis Binası Kat 8 Levent</field>
+            <field name='city'>Beşiktaş</field>
+            <field search="[('code','=','34'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>212-319 85 00</field>
+            <field name='eft_code'>0098</field>
+        </record>
+        <record model='res.bank' id='tr_societe_generale'>
+            <field name='name'>Société Générale (SA)</field>
+            <field name='bic'>SOGETRIS</field>
+            <field name='active'>1</field>
+            <field name='street'>Nispetiye Cad. Akmerkez</field>
+            <field name='street2'>E-3 Blok Kat 10</field>
+            <field name='city'>Etiler</field>
+            <field search="[('code','=','34'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>212-319 34 00</field>
+            <field name='eft_code'>0122</field>
+        </record>
+        <record model='res.bank' id='tr_royal_scotland'>
+            <field name='name'>The Royal Bank of Scotland N.V.</field>
+            <field name='bic'>ABNATRIS</field>
+            <field name='active'>1</field>
+            <field name='street'>Tamburi Ali Efendi Sok. No 13</field>
+            <field name='street2'>Etiler</field>
+            <field name='city'>Beşiktaş</field>
+            <field search="[('code','=','34'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>212-359 40 40</field>
+            <field name='eft_code'>0088</field>
+        </record>
+        <record model='res.bank' id='tr_iller'>
+            <field name='name'>İller Bankası</field>
+            <field name='bic'></field>
+            <field name='active'>1</field>
+            <field name='street'>Ziraat Mah. 657 Sok. No 14</field>
+            <field name='street2'></field>
+            <field name='city'>Dışkapı</field>
+            <field search="[('code','=','06'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>312- 508 70 00</field>
+            <field name='eft_code'>0004</field>
+        </record>
+        <record model='res.bank' id='tr_eximbank'>
+            <field name='name'>Türk Eximbank</field>
+            <field name='bic'>TIKBTR2A</field>
+            <field name='active'>1</field>
+            <field name='street'>Saray Mahallesi Ahmet Tevfik İleri Cad. No 19</field>
+            <field name='street2'></field>
+            <field name='city'>Ümraniye</field>
+            <field search="[('code','=','34'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>216- 666 55 00</field>
+            <field name='eft_code'>0016</field>
+        </record>
+        <record model='res.bank' id='tr_kalkinma'>
+            <field name='name'>Kalkınma Bankası</field>
+            <field name='bic'>TKBNTR2A</field>
+            <field name='active'>1</field>
+            <field name='street'>Necatibey Caddesi, No 98</field>
+            <field name='street2'></field>
+            <field name='city'>Yenişehir</field>
+            <field search="[('code','=','06'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>312-231 84 00</field>
+            <field name='eft_code'>0017</field>
+        </record>
+        <record model='res.bank' id='tr_aktif'>
+            <field name='name'>Aktifbank</field>
+            <field name='bic'>CAYTTRIS</field>
+            <field name='active'>1</field>
+            <field name='street'>Büyükdere Cad. No 163</field>
+            <field name='street2'>Zincirlikuyu</field>
+            <field name='city'>Şişli</field>
+            <field search="[('code','=','34'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>212-340 80 00</field>
+            <field name='eft_code'>0143</field>
+        </record>
+        <record model='res.bank' id='tr_diler'>
+            <field name='name'>Dilerbank</field>
+            <field name='bic'>DYAKTRIS</field>
+            <field name='active'>1</field>
+            <field name='street'>Tersane Cad. No 96 Diler Han Kat 8</field>
+            <field name='street2'></field>
+            <field name='city'>Karaköy</field>
+            <field search="[('code','=','34'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>212-253 66 30</field>
+            <field name='eft_code'>0138</field>
+        </record>
+        <record model='res.bank' id='tr_gsd'>
+            <field name='name'>GSD Bank</field>
+            <field name='bic'>GSDBTRIS</field>
+            <field name='active'>1</field>
+            <field name='street'>Aydınevler Mah. Kaptan Rıfat Sokak. No 3</field>
+            <field name='street2'>GSD Binası No 14 Küçükyalı</field>
+            <field name='city'>Maltepe</field>
+            <field search="[('code','=','34'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>216-587 90 00</field>
+            <field name='eft_code'>0139</field>
+        </record>
+        <record model='res.bank' id='tr_takas'>
+            <field name='name'>Takasbank</field>
+            <field name='bic'>TVSBTRIS</field>
+            <field name='active'>1</field>
+            <field name='street'>Şişli Merkez Mahallesi</field>
+            <field name='street2'>Merkez Caddesi, No 6</field>
+            <field name='city'>Şişli</field>
+            <field search="[('code','=','34'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>212-315 25 25</field>
+            <field name='eft_code'>0132</field>
+        </record>
+        <record model='res.bank' id='tr_nurol'>
+            <field name='name'>Nurol Yatırım Bankası A.Ş.</field>
+            <field name='bic'>NUROTRIS</field>
+            <field name='active'>1</field>
+            <field name='street'>Büyükdere Cad. Nurol Plaza</field>
+            <field name='street2'>No:257 Kat:19 34398 Maslak</field>
+            <field name='city'>Sarıyer</field>
+            <field search="[('code','=','34'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>212-286 81 00</field>
+            <field name='eft_code'>0141</field>
+        </record>
+        <record model='res.bank' id='tr_sinai_kalkinma'>
+            <field name='name'>Sınai Kalkınma Bankası</field>
+            <field name='bic'>TSKBTRIS</field>
+            <field name='active'>1</field>
+            <field name='street'>Meclisi Mebusan Cad. No 81</field>
+            <field name='street2'></field>
+            <field name='city'>Fındıklı</field>
+            <field search="[('code','=','34'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>212-334 50 50</field>
+            <field name='eft_code'>0014</field>
+        </record>
+        <record model='res.bank' id='tr_pozitif'>
+            <field name='name'>BankPozitif</field>
+            <field name='bic'>BPTRTRIS</field>
+            <field name='active'>1</field>
+            <field name='street'>Rüzgarlıbahçe Mah. Kayın Sok.</field>
+            <field name='street2'>No.3 Kavacık</field>
+            <field name='city'>Beykoz</field>
+            <field search="[('code','=','34'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>216-538 25 25</field>
+            <field name='eft_code'>0142</field>
+        </record>
+        <record model='res.bank' id='tr_merril_lynch'>
+            <field name='name'>Merrill Lynch Yatırım Bank A.Ş.</field>
+            <field name='bic'>MLMBIE2XIST</field>
+            <field name='active'>1</field>
+            <field name='street'>Büyükdere Cad. No 185</field>
+            <field name='street2'>Kanyon Ofisi Bloğu 11. Kat</field>
+            <field name='city'>Levent</field>
+            <field search="[('code','=','34'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>212-319 95 00</field>
+            <field name='eft_code'>0129</field>
+        </record>
+        <record model='res.bank' id='tr_pasha'>
+            <field name='name'>Pashabank</field>
+            <field name='bic'>TAIBTRIS</field>
+            <field name='active'>1</field>
+            <field name='street'>Maslak Mah. A.O.S. 55. Sok. No 2 42</field>
+            <field name='street2'>Maslak Ofis 3 Kat 7 Daire 205</field>
+            <field name='city'>Sarıyer</field>
+            <field search="[('code','=','34'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>212-705 89 00</field>
+            <field name='eft_code'>0116</field>
+        </record>
+        <record model='res.bank' id='tr_standard_chartered'>
+            <field name='name'>Credit Agricole Yatırım Bankası Türk A.Ş.</field>
+            <field name='bic'>BSUITRIS</field>
+            <field name='active'>1</field>
+            <field name='street'>Büyükdere Cad. Yapı Kredi Plaza</field>
+            <field name='street2'>C Blok, Kat 15</field>
+            <field name='city'>Levent</field>
+            <field search="[('code','=','34'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>212-339 37 00</field>
+            <field name='eft_code'>0121</field>
+        </record>
+        <record model='res.bank' id='tr_albaraka'>
+            <field name='name'>Albaraka Türk</field>
+            <field name='bic'>BTFHTRIS</field>
+            <field name='active'>1</field>
+            <field name='street'>Saray Mah. Dr. Adnan Büyükdeniz Cad.</field>
+            <field name='street2'>No:6</field>
+            <field name='city'>Ümraniye</field>
+            <field search="[('code','=','34'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>216-666 01 01</field>
+            <field name='eft_code'>0203</field>
+        </record>
+        <record model='res.bank' id='tr_asya'>
+            <field name='name'>Bank Asya</field>
+            <field name='bic'>ASYATRIS</field>
+            <field name='active'>1</field>
+            <field name='street'>Saray Mah. Dr. Adnan Büyükdeniz Cad.</field>
+            <field name='street2'>No:10</field>
+            <field name='city'>Ümraniye</field>
+            <field search="[('code','=','34'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>216-633 50 00</field>
+            <field name='eft_code'>0208</field>
+        </record>
+        <record model='res.bank' id='tr_kuveyt'>
+            <field name='name'>Kuveyt Türk</field>
+            <field name='bic'>KTEFRIS</field>
+            <field name='active'>1</field>
+            <field name='street'>Büyükdere Cad. No:129-1</field>
+            <field name='street2'>Esentepe</field>
+            <field name='city'>Şişli</field>
+            <field search="[('code','=','34'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>212-354 11 11</field>
+            <field name='eft_code'>0205</field>
+        </record>
+        <record model='res.bank' id='tr_finans_katilim'>
+            <field name='name'>Finans Katılım</field>
+            <field name='bic'>AFKBTRIS</field>
+            <field name='active'>1</field>
+            <field name='street'>Adnan Kahveci Caddesi No:131</field>
+            <field name='street2'>Yakacık</field>
+            <field name='city'>Kartal</field>
+            <field search="[('code','=','34'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>216-586 70 00</field>
+            <field name='eft_code'>0206</field>
+		</record>
+        <record model='res.bank' id='tr_vakif_katilim'>
+            <field name='name'>Vakıf Katılım</field>
+            <field name='bic'>VAKFTRIS</field>
+            <field name='active'>1</field>
+            <field name='street'>Saray Mah. Dr.Adnan Büyükdeniz Cad.</field>
+            <field name='street2'>No:10 34768</field>
+            <field name='city'>Ümraniye</field>
+            <field search="[('code','=','34'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>216-800 55 55</field>
+            <field name='eft_code'>0210</field>
+        </record>
+        <record model='res.bank' id='tr_vakif_katilim'>
+            <field name='name'>WestLB AG</field>
+            <field name='bic'>WELATRIS</field>
+            <field name='active'>1</field>
+            <field name='street'>Ebulula Mardin Cad. Maya Park Towers II</field>
+            <field name='street2'></field>
+            <field name='city'>Akatlar</field>
+            <field search="[('code','=','34'),('country_id.code', '=', 'TR')]" model='res.country.state' name='state'/>
+            <field name='country' ref='base.tr'/>
+            <field name='phone'>212-339 25 00</field>
+            <field name='eft_code'>0106</field>
+        </record>
+    </data>
+</odoo>

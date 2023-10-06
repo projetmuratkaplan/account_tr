@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="fpat_mal_ihracati_601" model="account.fiscal.position.account.template">
+            <field name="position_id" ref="fpt_mal_ihracati"/>
+            <field name="account_src_id"  ref="account_tr.tr600" />
+            <field name="account_dest_id" ref="account_tr.tr601" />
+        </record>
+        <record id="fpat_hizmet_ihracati_601" model="account.fiscal.position.account.template">
+            <field name="position_id" ref="fpt_hizmet_ihracati"/>
+            <field name="account_src_id"  ref="account_tr.tr600" />
+            <field name="account_dest_id" ref="account_tr.tr601" />
+        </record>
+        <record id="fpat_roaming_hizmetleri_601" model="account.fiscal.position.account.template">
+            <field name="position_id" ref="fpt_roaming_hizmetleri"/>
+            <field name="account_src_id"  ref="account_tr.tr600" />
+            <field name="account_dest_id" ref="account_tr.tr601" />
+        </record>
+        <record id="fpat_uluslararasi_tasimacilik_601" model="account.fiscal.position.account.template">
+            <field name="position_id" ref="fpt_uluslararasi_tasimacilik"/>
+            <field name="account_src_id"  ref="account_tr.tr600" />
+            <field name="account_dest_id" ref="account_tr.tr601" />
+        </record>
+        <record id="fpat_serbest_bolge_icin_yapilan_fason_hizmetler_601" model="account.fiscal.position.account.template">
+            <field name="position_id" ref="fpt_serbest_bolge_icin_yapilan_fason_hizmetler"/>
+            <field name="account_src_id"  ref="account_tr.tr600" />
+            <field name="account_dest_id" ref="account_tr.tr601" />
+        </record>
+        <record id="fpat_turkiyede_ikamet_etmeyenlere_yapilan_teslimler_601" model="account.fiscal.position.account.template">
+            <field name="position_id" ref="fpt_turkiyede_ikamet_etmeyenlere_yapilan_teslimler"/>
+            <field name="account_src_id"  ref="account_tr.tr600" />
+            <field name="account_dest_id" ref="account_tr.tr601" />
+        </record>
+    </data>
+</odoo>
+

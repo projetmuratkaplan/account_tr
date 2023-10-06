@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="banka_islem_masraflari" model="account.reconcile.model.template">
+        <field name="chart_template_id" ref="l10ntr_tek_duzen_hesap"/>
+        <field name="name">Banka İşlem Masrafları</field>
+        <field name="rule_type">writeoff_button</field>
+    </record>
+	<record id="banka_islem_masraflari_kalemi" model="account.reconcile.model.line.template">
+        <field name="model_id" ref="account_tr.banka_islem_masraflari"/>
+        <field name="account_id" ref="tr770"/>
+        <field name="amount_type">percentage</field>
+        <field name="amount_string">100</field>
+        <field name="label">Banka İşlem Masrafları</field>
+    </record>
+</odoo>

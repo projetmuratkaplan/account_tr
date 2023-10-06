@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="fpt_turkiye_de_ikamet_etmeyenlere_kdv_hesaplanarak_yapilan_satislar"
+                model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Türkiye'de İkamet Etmeyenlere KDV Hesaplanarak Yapılan Satışlar(Yolcu Beraberi Eşya)
+                [KDVGUT-(II/A-5)]
+            </field>
+            <field name="code">501</field>
+            <field name="note">Türkiye'de İkamet Etmeyenlere KDV Hesaplanarak Yapılan Satışlar(Yolcu Beraberi Eşya)
+                [KDVGUT-(II/A-5)]
+            </field>
+        </record>
+
+        <record id="fpt_amortismana_tabi_sabit_kiymet_satislari" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Amortismana Tabi Sabit Kıymet (Taşınmaz, Taşıt Araçları, Demirbaş, Makine ve Teçhizat
+                vb.) Satışları
+            </field>
+            <field name="code">501</field>
+            <field name="note">Amortismana Tabi Sabit Kıymet (Taşınmaz, Taşıt Araçları, Demirbaş, Makine ve Teçhizat
+                vb.) Satışları
+            </field>
+        </record>
+
+        <record id="fpt_vuk_322_kapsamina_giren_borclara_ait_kdv" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">VUK 322 Kapsamına Giren Borçlara Ait KDV</field>
+            <field name="code">505</field>
+            <field name="note">VUK 322 Kapsamına Giren Borçlara Ait KDV</field>
+        </record>
+
+        <record id="fpt_505_digerleri" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Diğerleri</field>
+            <field name="code">550</field>
+            <field name="note">Diğerleri</field>
+        </record>
+    </data>
+</odoo>

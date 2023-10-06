@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="fpt_kultur_egitim_islemleri" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Kültür ve Eğitim Amacı Taşıyan İşlemler</field>
+            <field name="code">201</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">17/1 Kültür ve Eğitim Amacı Taşıyan İşlemler</field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_saglik_cevre_sosyal_yardim_islemleri" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Sağlık, Çevre Ve Sosyal Yardım Amaçlı İşlemler)</field>
+            <field name="code">202</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">17/2-a Sağlık, Çevre Ve Sosyal Yardım Amaçlı İşlemler</field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_yabanci_diplomatik_organ_ve_hayir_kurumlari_mal_hizmet_alislari"
+                model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Yabancı Diplomatik Organ ve Hayır Kurumlarının Yapacakları Bağışlarla İlgili Mal ve
+                Hizmet Alışları
+            </field>
+            <field name="code">204</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Yabancı Diplomatik Organ ve Hayır Kurumlarının Yapacakları Bağışlarla İlgili Mal ve
+                Hizmet Alışları
+            </field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_tasinmaz_kultur_varliklarina_iliskin_teslim_ve_mimarlik_hizmetleri"
+                model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Taşınmaz Kültür Varlıklarına İlişkin Teslimler ve Mimarlık Hizmetleri</field>
+            <field name="code">205</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Taşınmaz Kültür Varlıklarına İlişkin Teslimler ve Mimarlık Hizmetleri</field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_mesleki_kuruluslarin_islemleri" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Mesleki Kuruluşların İşlemleri</field>
+            <field name="code">206</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Mesleki Kuruluşların İşlemleri</field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_askeri_fabrika_tersane_ve_atolyelerin_islemleri" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Askeri Fabrika, Tersane ve Atölyelerin İşlemleri</field>
+            <field name="code">207</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Askeri Fabrika, Tersane ve Atölyelerin İşlemleri</field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_birlesme_devir_donusum_ve_bolunme_islemleri" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Birleşme,Devir, Dönüşüm ve Bölünme İşlemleri</field>
+            <field name="code">208</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Birleşme,Devir, Dönüşüm ve Bölünme İşlemleri</field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_banka_ve_sigorta_muameleri_vergisi_kapsamina_giren_islemler"
+                model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Banka ve Sigorta Muameleleri Vergisi Kapsamına Giren İşlemler</field>
+            <field name="code">209</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Banka ve Sigorta Muameleleri Vergisi Kapsamına Giren İşlemler</field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_zirai_amacli_su_teslimleri_ile_koy_tuzel_kisiliklerince_yapilan"
+                model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Zirai Amaçlı Su Teslimleri ile Köy Tüzel Kişiliklerince Yapılan İçme Suyu Teslimleri
+            </field>
+            <field name="code">211</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Zirai Amaçlı Su Teslimleri ile Köy Tüzel Kişiliklerince Yapılan İçme Suyu Teslimleri
+            </field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_serbest_bolgelerde_verilen_hizmetler" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Serbest Bölgelerde Verilen Hizmetler</field>
+            <field name="code">212</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Serbest Bölgelerde Verilen Hizmetler</field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_boru_hatti_ile_yapilan_petrol_ve_gaz_tasimaciligi" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Boru Hattı ile Yapılan Petrol ve Gaz Taşımacılığı</field>
+            <field name="code">213</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Boru Hattı ile Yapılan Petrol ve Gaz Taşımacılığı</field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_organize_sanayi_bolgelerindeki_arsa_ve_isyeri_teslimleri_ile_konut"
+                model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Organize Sanayi Bölgelerindeki Arsa ve İşyeri Teslimleri ile Konut Yapı Kooperatiflerinin
+                Üyelerine Konut Teslimleri
+            </field>
+            <field name="code">214</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Organize Sanayi Bölgelerindeki Arsa ve İşyeri Teslimleri ile Konut Yapı Kooperatiflerinin
+                Üyelerine Konut Teslimleri
+            </field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_varlik_yonetim_sirketlerinin_islemleri" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Varlık Yönetim Şirketlerinin İşlemleri</field>
+            <field name="code">215</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Varlık Yönetim Şirketlerinin İşlemleri</field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_tasarruf_mevduati_sigorta_fonunun_islemleri" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Tasarruf Mevduatı Sigorta Fonunun İşlemleri</field>
+            <field name="code">216</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Tasarruf Mevduatı Sigorta Fonunun İşlemleri</field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_basin_yayin_ve_enformasyon_genel_mudurlugune_verilen_haber_hizmetleri"
+                model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Basın-Yayın ve Enformasyon Genel Müdürlüğüne Verilen Haber Hizmetleri</field>
+            <field name="code">217</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Basın-Yayın ve Enformasyon Genel Müdürlüğüne Verilen Haber Hizmetleri</field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_gumruk_antrepolari_gecici_depolama_yerleri_ile_gumruklu"
+                model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Gümrük Antrepoları, Geçici Depolama Yerleri ile Gümrüklü Sahalarda Vergisiz Satış Yapılan
+                İşyeri, Depo ve Ardiye Gibi Bağımsız Birimlerin Kiralanması
+            </field>
+            <field name="code">218</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Gümrük Antrepoları, Geçici Depolama Yerleri ile Gümrüklü Sahalarda Vergisiz Satış Yapılan
+                İşyeri, Depo ve Ardiye Gibi Bağımsız Birimlerin Kiralanması
+            </field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_hazine_ve_arsa_ofisi_genel_mudurlugunun_islemleri" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Hazine ve Arsa Ofisi Genel Müdürlüğünün İşlemleri</field>
+            <field name="code">219</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Hazine ve Arsa Ofisi Genel Müdürlüğünün İşlemleri</field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_iki_tam_yil_sureyle_sahip_olunan_tasinmaz_ve_istirak_hissesi_satislari"
+                model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">İki Tam Yıl Süreyle Sahip Olunan Taşınmaz ve İştirak Hissesi Satışları</field>
+            <field name="code">220</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">İki Tam Yıl Süreyle Sahip Olunan Taşınmaz ve İştirak Hissesi Satışları</field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_konut_yapi_kooperatifleri_belediyeler_ve_sosyal_guvenlik_kuruluaslari"
+                model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Konut Yapı Kooperatifleri, Belediyeler ve Sosyal Güvenlik Kuruluşlarına Verilen İnşaat
+                Taahhüt Hizmeti
+            </field>
+            <field name="code">221</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Konut Yapı Kooperatifleri, Belediyeler ve Sosyal Güvenlik Kuruluşlarına Verilen İnşaat
+                Taahhüt Hizmeti
+            </field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_teknoloji_gelistirme_bolge_islemleri" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Teknoloji Geliştirme Bölgelerinde Yapılan İşlemler</field>
+            <field name="code">223</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Geçici 20/1 Teknoloji Geliştirme Bölgelerinde Yapılan İşlemler</field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_meb_bilgisayar_bagislari" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Milli Eğitim Bakanlığına Yapılan Bilgisayar Bağışları İle İlgili Teslimler</field>
+            <field name="code">225</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Geçici 23 Milli Eğitim Bakanlığına Yapılan Bilgisayar Bağışları İle İlgili Teslimler
+            </field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_ozel_okullar_universite_ve_yuksekokullar_tarafindan_verilen_bedelsiz_egitim"
+                model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Özel Okullar, Üniversite ve Yüksekokullar Tarafından Verilen Bedelsiz Eğitim ve Öğretim
+                Hizmetleri
+            </field>
+            <field name="code">226</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Özel Okullar, Üniversite ve Yüksekokullar Tarafından Verilen Bedelsiz Eğitim ve Öğretim
+                Hizmetleri
+            </field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_kanunlarin_gosterdigi_gerek_uzerine_bedelsiz_olarak_yapilan_teslim_ve_hizmetler"
+                model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Kanunların Gösterdiği Gerek Üzerine Bedelsiz Olarak Yapılan Teslim ve Hizmetler</field>
+            <field name="code">227</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Kanunların Gösterdiği Gerek Üzerine Bedelsiz Olarak Yapılan Teslim ve Hizmetler</field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_kanunun_17_1_maddesinde_sayilan_kurum_ve_kuruluslara_bedelsiz_olarak"
+                model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Kanunun (17/1) Maddesinde Sayılan Kurum ve Kuruluşlara Bedelsiz Olarak Yapılan Teslim ve
+                Hizmetler
+            </field>
+            <field name="code">228</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Kanunun (17/1) Maddesinde Sayılan Kurum ve Kuruluşlara Bedelsiz Olarak Yapılan Teslim ve
+                Hizmetler
+            </field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_gida_bankaciligi_faaliyetlerinde_bulunan_dernek_ve_vakiflara_bagislanan"
+                model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Gıda Bankacılığı Faaliyetinde Bulunan Dernek ve Vakıflara Bağışlanan Gıda, Temizlik,
+                Giyecek ve Yakacak Maddeleri
+            </field>
+            <field name="code">229</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Gıda Bankacılığı Faaliyetinde Bulunan Dernek ve Vakıflara Bağışlanan Gıda, Temizlik,
+                Giyecek ve Yakacak Maddeleri
+            </field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_kulce_altin_kulce_gumus_kiymetli_tas_teslimleri" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Külçe Altın, Külçe Gümüş, Kıymetli Taş Teslimleri</field>
+            <field name="code">230</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Külçe Altın, Külçe Gümüş, Kıymetli Taş Teslimleri</field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_metal_plastik_lastik_kaucuk_kagit_cam_hurda_atik" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Metal Plastik, Lastik, Kauçuk, Kağit, Cam Hurda Ve Atıkların Teslimi</field>
+            <field name="code">231</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">17/4-g Metal Plastik, Lastik, Kauçuk, Kağit, Cam Hurda Ve Atıkların Teslimi</field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+
+        <record id="fpt_doviz_para_damga_pulu_degerli_kagitlar_hisse_senedi_tahvil_teslimleri"
+                model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Döviz, Para, Damga Pulu, Değerli Kağıtlar, Hisse Senedi, Tahvil Teslimleri</field>
+            <field name="code">232</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Döviz, Para, Damga Pulu, Değerli Kağıtlar, Hisse Senedi, Tahvil Teslimleri</field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_konut_finansmani_amaciyla_teminat_gosterilen_ve_ipotek_konulan_konutlarin_teslimleri"
+                model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Konut Finansmanı Amacıyla Teminat Gösterilen ve İpotek Konulan Konutların Teslimi</field>
+            <field name="code">234</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Konut Finansmanı Amacıyla Teminat Gösterilen ve İpotek Konulan Konutların Teslimi</field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_transit_ve_gumruk_antrepo_rejimleri" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Transit ve Gümrük Antrepo Rejimleri İle Geçici Depolama ve Serbest Bölge Hükümlerinin
+                Uygulandığı Malların Teslimi
+            </field>
+            <field name="code">235</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">16/1-c Transit ve Gümrük Antrepo Rejimleri İle Geçici Depolama ve Serbest Bölge
+                Hükümlerinin Uygulandığı Malların Teslimi
+            </field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+
+        <record id="fpt_usulune_gore_yururluge_girmis_uluslararasi_anlasmlar_kapsamindaki"
+                model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Usulüne Göre Yürürlüğe Girmiş Uluslararası Anlaşmalar Kapsamındaki İstisnalar(İade Hakkı
+                Tanınmayan)
+            </field>
+            <field name="code">236</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Usulüne Göre Yürürlüğe Girmiş Uluslararası Anlaşmalar Kapsamındaki İstisnalar(İade Hakkı
+                Tanınmayan)
+            </field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_5300_sayili_kanuna_gore_duzenlenen_urun_senetlerinin_ihtisas_ticaret_borsalari"
+                model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">5300 Sayılı Kanuna Göre Düzenlenen Ürün Senetlerinin İhtisas/Ticaret Borsaları
+                Aracılığıyla İlk Tesliminden Sonraki Teslimi
+            </field>
+            <field name="code">237</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">5300 Sayılı Kanuna Göre Düzenlenen Ürün Senetlerinin İhtisas/Ticaret Borsaları
+                Aracılığıyla İlk Tesliminden Sonraki Teslimi
+            </field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_varliklarin_varlik_kiralama_sirlerine_devri_ile_bu_varliklarin_varlik_kiralama_sirketlerince_kiralanmasi"
+                model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Varlıkların Varlık Kiralama Şirketlerine Devri ile Bu Varlıkların Varlık Kiralama
+                Şirketlerince Kiralanması ve Devralınan Kuruma Devri
+            </field>
+            <field name="code">238</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Varlıkların Varlık Kiralama Şirketlerine Devri ile Bu Varlıkların Varlık Kiralama
+                Şirketlerince Kiralanması ve Devralınan Kuruma Devri
+            </field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_leasing_devir_kiralama" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Taşınmazların Finansal Kiralama Şirketlerine Devri, Finansal Kiralama Şirketi Tarafından
+                Devredene Kiralanması ve Devri
+            </field>
+            <field name="code">239</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">17/4-y Taşınmazların Finansal Kiralama Şirketlerine Devri, Finansal Kiralama Şirketi
+                Tarafından Devredene Kiralanması ve Devri
+            </field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_patentli_veya_faydali_model_belgeli_bulusa_iliskin_gayrimaddi_haklarin_kiralanmasi"
+                model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Patentli veya Faydalı Model Belgeli Buluşa İlişkin Gayrimaddi Hakların Kiralanması,Devri
+                ve Satışı
+            </field>
+            <field name="code">240</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Patentli veya Faydalı Model Belgeli Buluşa İlişkin Gayrimaddi Hakların Kiralanması,Devri
+                ve Satışı
+            </field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_turkakim_gaz_boru_hatti_projesine_iliskin_anlasmasinin_9_b_maddesinde_yer_alan"
+                model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">TürkAkım Gaz Boru Hattı Projesine İlişkin Anlaşmanın (9/b) Maddesinde Yer Alan
+                Hizmetler
+            </field>
+            <field name="code">241</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">TürkAkım Gaz Boru Hattı Projesine İlişkin Anlaşmanın (9/b) Maddesinde Yer Alan
+                Hizmetler
+            </field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_gumruk_antrepolari_gecici_depolama_yerleri_ile_gumruklu_sahalarda_ithalat_ve_ihracat_ismlemlerine"
+                model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Gümrük Antrepoları, Geçici Depolama Yerleri ile Gümrüklü Sahalarda, İthalat ve İhracat
+                İşlemlerine konu mallar ile transit rejim kapsamında işlem gören mallar için verilen ardiye, depolama ve
+                terminal hizmetleri
+            </field>
+            <field name="code">242</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Gümrük Antrepoları, Geçici Depolama Yerleri ile Gümrüklü Sahalarda, İthalat ve İhracat
+                İşlemlerine konu mallar ile transit rejim kapsamında işlem gören mallar için verilen ardiye, depolama ve
+                terminal hizmetleri
+            </field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_250_digerleri" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Diğerleri</field>
+            <field name="code">250</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Diğerleri</field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+
+
+    </data>
+</odoo>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Start of Data Records -->
+    <data>
+        <!-- Customizing the res.bank form view for EFT code -->
+        <record id="view_res_bank_form_eft" model="ir.ui.view">
+            <field name="name">res.bank.form.eft</field>
+            <field name="model">res.bank</field>
+            <!-- Inheriting from base.view_res_bank_form -->
+            <field name="inherit_id" ref="base.view_res_bank_form"/>
+            <field name="arch" type="xml">
+                <data>
+                    <!-- Modifying 'bic' field attributes to make it required -->
+                    <xpath expr="//field[@name='bic']" position="attributes">
+                        <attribute name="attrs">{'required': True}</attribute>
+                    </xpath>
+                    <!-- Adding a new field 'eft_code' after 'bic' field -->
+                    <xpath expr="//field[@name='bic']" position="after">
+                        <field name="eft_code"/>
+                    </xpath>
+                </data>
+            </field>
+        </record>
+        
+        <!-- Customizing the res.bank tree view for EFT code -->
+        <record id="view_res_bank_tree_eft" model="ir.ui.view">
+            <field name="name">res.bank.tree.eft</field>
+            <field name="model">res.bank</field>
+            <!-- Inheriting from base.view_res_bank_tree -->
+            <field name="inherit_id" ref="base.view_res_bank_tree"/>
+            <field name="arch" type="xml">
+                <data>
+                    <!-- Adding a new field 'eft_code' after 'bic' field -->
+                    <xpath expr="//field[@name='bic']" position="after">
+                        <field name="eft_code"/>
+                    </xpath>
+                </data>
+            </field>
+        </record>
+    </data>
+    <!-- End of Data Records -->
+</odoo>

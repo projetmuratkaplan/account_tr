@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_account_position_template_tree_template" model="ir.ui.view">
+            <field name="name">account.fiscal.position.template.tree.template</field>
+            <field name="model">account.fiscal.position.template</field>
+            <field name="inherit_id" ref="account.view_account_position_template_tree"/>
+            <field name="arch" type="xml">
+                <data>
+                    <xpath expr="//field[@name='name']" position="after">
+                        <field name="code"/>
+                        <field name="category_id"/>
+                    </xpath>
+                </data>
+            </field>
+        </record>
+
+        <record id="view_account_position_template_form_extended" model="ir.ui.view">
+            <field name="name">account.fiscal.position.template.extended</field>
+            <field name="model">account.fiscal.position.template</field>
+            <field name="inherit_id" ref="account.view_account_position_template_form"/>
+            <field name="arch" type="xml">
+                <data>
+                    <xpath expr="//field[@name='chart_template_id']" position="after">
+                        <field name="code"/>
+                        <field name="code2"/>
+                        <field name="code3"/>
+                        <field name="category_id"/>
+                    </xpath>
+                </data>
+            </field>
+        </record>
+
+        <record id="account_fiscal_position_template_action" model="ir.actions.act_window">
+                <field name="name">Fiscal Position Templates</field>
+                <field name="res_model">account.fiscal.position.template</field>
+                <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem action="account_fiscal_position_template_action" id="menu_account_fiscal_position_template" parent="account.account_account_menu" sequence="4"/>
+
+    </data>
+</odoo>

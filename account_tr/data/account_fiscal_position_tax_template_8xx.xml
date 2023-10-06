@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="fptt_8_yapim_isleri_ile_bu_islerle_birlikte_ifa_edilen_muhendislik_s18"
+                model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_yapim_isleri_ile_bu_islerle_birlikte_ifa_edilen_muhendislik"/>
+            <field name="tax_src_id" ref="account_tr.tax_satis_kdv_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_satis_kdv_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_yapim_isleri_ile_bu_islerle_birlikte_ifa_edilen_muhendislik_sd18"
+                model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_yapim_isleri_ile_bu_islerle_birlikte_ifa_edilen_muhendislik"/>
+            <field name="tax_src_id" ref="account_tr.tax_satis_kdv_dahil_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_satis_kdv_dahil_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_yapim_isleri_ile_bu_islerle_birlikte_ifa_edilen_muhendislik_a18"
+                model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_yapim_isleri_ile_bu_islerle_birlikte_ifa_edilen_muhendislik"/>
+            <field name="tax_src_id" ref="account_tr.tax_alim_kdv_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_alim_kdv_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_yapim_isleri_ile_bu_islerle_birlikte_ifa_edilen_muhendislik_ad18"
+                model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_yapim_isleri_ile_bu_islerle_birlikte_ifa_edilen_muhendislik"/>
+            <field name="tax_src_id" ref="account_tr.tax_alim_kdv_dahil_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_alim_kdv_dahil_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_etut_plan-proje_danismanlik_denetim_ve_benzeri_hizmetleri_s18"
+                model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_etut_plan-proje_danismanlik_denetim_ve_benzeri_hizmetleri"/>
+            <field name="tax_src_id" ref="account_tr.tax_satis_kdv_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_satis_kdv_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_etut_plan-proje_danismanlik_denetim_ve_benzeri_hizmetleri_sd18"
+                model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_etut_plan-proje_danismanlik_denetim_ve_benzeri_hizmetleri"/>
+            <field name="tax_src_id" ref="account_tr.tax_satis_kdv_dahil_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_satis_kdv_dahil_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_etut_plan-proje_danismanlik_denetim_ve_benzeri_hizmetleri_a18"
+                model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_etut_plan-proje_danismanlik_denetim_ve_benzeri_hizmetleri"/>
+            <field name="tax_src_id" ref="account_tr.tax_alim_kdv_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_alim_kdv_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_etut_plan-proje_danismanlik_denetim_ve_benzeri_hizmetleri_ad18"
+                model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_etut_plan-proje_danismanlik_denetim_ve_benzeri_hizmetleri"/>
+            <field name="tax_src_id" ref="account_tr.tax_alim_kdv_dahil_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_alim_kdv_dahil_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_makine_techizat_demirbas_ve_tasitlara_ait_tadil_bakim_ve_onarim_s18"
+                model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_makine_techizat_demirbas_ve_tasitlara_ait_tadil_bakim_ve_onarim"/>
+            <field name="tax_src_id" ref="account_tr.tax_satis_kdv_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_satis_kdv_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_makine_techizat_demirbas_ve_tasitlara_ait_tadil_bakim_ve_onarim_sd18"
+                model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_makine_techizat_demirbas_ve_tasitlara_ait_tadil_bakim_ve_onarim"/>
+            <field name="tax_src_id" ref="account_tr.tax_satis_kdv_dahil_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_satis_kdv_dahil_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_makine_techizat_demirbas_ve_tasitlara_ait_tadil_bakim_ve_onarim_a18"
+                model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_makine_techizat_demirbas_ve_tasitlara_ait_tadil_bakim_ve_onarim"/>
+            <field name="tax_src_id" ref="account_tr.tax_alim_kdv_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_alim_kdv_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_makine_techizat_demirbas_ve_tasitlara_ait_tadil_bakim_ve_onarim_ad18"
+                model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_makine_techizat_demirbas_ve_tasitlara_ait_tadil_bakim_ve_onarim"/>
+            <field name="tax_src_id" ref="account_tr.tax_alim_kdv_dahil_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_alim_kdv_dahil_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_yemek_servis_hizmeti_s18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_yemek_servis_hizmeti"/>
+            <field name="tax_src_id" ref="account_tr.tax_satis_kdv_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_satis_kdv_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_yemek_servis_hizmeti_sd18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_yemek_servis_hizmeti"/>
+            <field name="tax_src_id" ref="account_tr.tax_satis_kdv_dahil_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_satis_kdv_dahil_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_yemek_servis_hizmeti_a18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_yemek_servis_hizmeti"/>
+            <field name="tax_src_id" ref="account_tr.tax_alim_kdv_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_alim_kdv_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_yemek_servis_hizmeti_ad18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_yemek_servis_hizmeti"/>
+            <field name="tax_src_id" ref="account_tr.tax_alim_kdv_dahil_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_alim_kdv_dahil_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_organizasyon_hizmeti_s18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_organizasyon_hizmeti"/>
+            <field name="tax_src_id" ref="account_tr.tax_satis_kdv_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_satis_kdv_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_organizasyon_hizmeti_sd18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_organizasyon_hizmeti"/>
+            <field name="tax_src_id" ref="account_tr.tax_satis_kdv_dahil_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_satis_kdv_dahil_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_organizasyon_hizmeti_a18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_organizasyon_hizmeti"/>
+            <field name="tax_src_id" ref="account_tr.tax_alim_kdv_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_alim_kdv_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_organizasyon_hizmeti_ad18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_organizasyon_hizmeti"/>
+            <field name="tax_src_id" ref="account_tr.tax_alim_kdv_dahil_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_alim_kdv_dahil_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_isgucu_temin_hizmetleri_s18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_isgucu_temin_hizmetleri"/>
+            <field name="tax_src_id" ref="account_tr.tax_satis_kdv_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_satis_kdv_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_isgucu_temin_hizmetleri_sd18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_isgucu_temin_hizmetleri"/>
+            <field name="tax_src_id" ref="account_tr.tax_satis_kdv_dahil_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_satis_kdv_dahil_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_isgucu_temin_hizmetleri_a18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_isgucu_temin_hizmetleri"/>
+            <field name="tax_src_id" ref="account_tr.tax_alim_kdv_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_alim_kdv_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_isgucu_temin_hizmetleri_ad18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_isgucu_temin_hizmetleri"/>
+            <field name="tax_src_id" ref="account_tr.tax_alim_kdv_dahil_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_alim_kdv_dahil_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_ozel_guvenlik_hizmeti_s18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_ozel_guvenlik_hizmeti"/>
+            <field name="tax_src_id" ref="account_tr.tax_satis_kdv_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_satis_kdv_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_ozel_guvenlik_hizmeti_sd18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_ozel_guvenlik_hizmeti"/>
+            <field name="tax_src_id" ref="account_tr.tax_satis_kdv_dahil_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_satis_kdv_dahil_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_ozel_guvenlik_hizmeti_a18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_ozel_guvenlik_hizmeti"/>
+            <field name="tax_src_id" ref="account_tr.tax_alim_kdv_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_alim_kdv_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_ozel_guvenlik_hizmeti_ad18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_ozel_guvenlik_hizmeti"/>
+            <field name="tax_src_id" ref="account_tr.tax_alim_kdv_dahil_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_alim_kdv_dahil_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_yapi_denetim_hizmetleri_s18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_yapi_denetim_hizmetleri"/>
+            <field name="tax_src_id" ref="account_tr.tax_satis_kdv_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_satis_kdv_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_yapi_denetim_hizmetleri_sd18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_yapi_denetim_hizmetleri"/>
+            <field name="tax_src_id" ref="account_tr.tax_satis_kdv_dahil_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_satis_kdv_dahil_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_yapi_denetim_hizmetleri_a18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_yapi_denetim_hizmetleri"/>
+            <field name="tax_src_id" ref="account_tr.tax_alim_kdv_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_alim_kdv_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_yapi_denetim_hizmetleri_ad18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_yapi_denetim_hizmetleri"/>
+            <field name="tax_src_id" ref="account_tr.tax_alim_kdv_dahil_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_alim_kdv_dahil_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_fason_olarak_yaptirilan_tekstil_ve_konfeksiyon_isleri_s18"
+                model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_fason_olarak_yaptirilan_tekstil_ve_konfeksiyon_isleri"/>
+            <field name="tax_src_id" ref="account_tr.tax_satis_kdv_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_satis_kdv_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_fason_olarak_yaptirilan_tekstil_ve_konfeksiyon_isleri_sd18"
+                model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_fason_olarak_yaptirilan_tekstil_ve_konfeksiyon_isleri"/>
+            <field name="tax_src_id" ref="account_tr.tax_satis_kdv_dahil_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_satis_kdv_dahil_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_fason_olarak_yaptirilan_tekstil_ve_konfeksiyon_isleri_a18"
+                model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_fason_olarak_yaptirilan_tekstil_ve_konfeksiyon_isleri"/>
+            <field name="tax_src_id" ref="account_tr.tax_alim_kdv_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_alim_kdv_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_fason_olarak_yaptirilan_tekstil_ve_konfeksiyon_isleri_ad18"
+                model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_fason_olarak_yaptirilan_tekstil_ve_konfeksiyon_isleri"/>
+            <field name="tax_src_id" ref="account_tr.tax_alim_kdv_dahil_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_alim_kdv_dahil_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_turistik_magazalara_verilen_musteri_bulma_goturme_hizmetleri_s18"
+                model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_turistik_magazalara_verilen_musteri_bulma_goturme_hizmetleri"/>
+            <field name="tax_src_id" ref="account_tr.tax_satis_kdv_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_satis_kdv_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_turistik_magazalara_verilen_musteri_bulma_goturme_hizmetleri_sd18"
+                model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_turistik_magazalara_verilen_musteri_bulma_goturme_hizmetleri"/>
+            <field name="tax_src_id" ref="account_tr.tax_satis_kdv_dahil_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_satis_kdv_dahil_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_turistik_magazalara_verilen_musteri_bulma_goturme_hizmetleri_a18"
+                model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_turistik_magazalara_verilen_musteri_bulma_goturme_hizmetleri"/>
+            <field name="tax_src_id" ref="account_tr.tax_alim_kdv_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_alim_kdv_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_turistik_magazalara_verilen_musteri_bulma_goturme_hizmetleri_ad18"
+                model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_turistik_magazalara_verilen_musteri_bulma_goturme_hizmetleri"/>
+            <field name="tax_src_id" ref="account_tr.tax_alim_kdv_dahil_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_alim_kdv_dahil_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_spor_kuluplerinin_yayin_reklâm_ve_isim_hakki_gelirleri_konu_islemleri_s18"
+                model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_spor_kuluplerinin_yayin_reklâm_ve_isim_hakki_gelirleri_konu_islemleri"/>
+            <field name="tax_src_id" ref="account_tr.tax_satis_kdv_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_satis_kdv_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_spor_kuluplerinin_yayin_reklâm_ve_isim_hakki_gelirleri_konu_islemleri_sd18"
+                model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_spor_kuluplerinin_yayin_reklâm_ve_isim_hakki_gelirleri_konu_islemleri"/>
+            <field name="tax_src_id" ref="account_tr.tax_satis_kdv_dahil_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_satis_kdv_dahil_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_spor_kuluplerinin_yayin_reklâm_ve_isim_hakki_gelirleri_konu_islemleri_a18"
+                model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_spor_kuluplerinin_yayin_reklâm_ve_isim_hakki_gelirleri_konu_islemleri"/>
+            <field name="tax_src_id" ref="account_tr.tax_alim_kdv_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_alim_kdv_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_spor_kuluplerinin_yayin_reklâm_ve_isim_hakki_gelirleri_konu_islemleri_ad18"
+                model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_spor_kuluplerinin_yayin_reklâm_ve_isim_hakki_gelirleri_konu_islemleri"/>
+            <field name="tax_src_id" ref="account_tr.tax_alim_kdv_dahil_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_alim_kdv_dahil_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_temizlik_hizmeti_s18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_temizlik_hizmeti"/>
+            <field name="tax_src_id" ref="account_tr.tax_satis_kdv_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_satis_kdv_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_temizlik_hizmeti_sd18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_temizlik_hizmeti"/>
+            <field name="tax_src_id" ref="account_tr.tax_satis_kdv_dahil_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_satis_kdv_dahil_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_temizlik_hizmeti_a18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_temizlik_hizmeti"/>
+            <field name="tax_src_id" ref="account_tr.tax_alim_kdv_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_alim_kdv_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_temizlik_hizmeti_ad18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_temizlik_hizmeti"/>
+            <field name="tax_src_id" ref="account_tr.tax_alim_kdv_dahil_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_alim_kdv_dahil_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_cevre_ve_bahce_bakim_hizmetleri_s18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_cevre_ve_bahce_bakim_hizmetleri"/>
+            <field name="tax_src_id" ref="account_tr.tax_satis_kdv_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_satis_kdv_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_cevre_ve_bahce_bakim_hizmetleri_sd18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_cevre_ve_bahce_bakim_hizmetleri"/>
+            <field name="tax_src_id" ref="account_tr.tax_satis_kdv_dahil_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_satis_kdv_dahil_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_cevre_ve_bahce_bakim_hizmetleri_a18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_cevre_ve_bahce_bakim_hizmetleri"/>
+            <field name="tax_src_id" ref="account_tr.tax_alim_kdv_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_alim_kdv_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_cevre_ve_bahce_bakim_hizmetleri_ad18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_cevre_ve_bahce_bakim_hizmetleri"/>
+            <field name="tax_src_id" ref="account_tr.tax_alim_kdv_dahil_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_alim_kdv_dahil_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_servis_tasimaciligi_hizmeti_s18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_servis_tasimaciligi_hizmeti"/>
+            <field name="tax_src_id" ref="account_tr.tax_satis_kdv_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_satis_kdv_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_servis_tasimaciligi_hizmeti_sd18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_servis_tasimaciligi_hizmeti"/>
+            <field name="tax_src_id" ref="account_tr.tax_satis_kdv_dahil_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_satis_kdv_dahil_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_servis_tasimaciligi_hizmeti_a18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_servis_tasimaciligi_hizmeti"/>
+            <field name="tax_src_id" ref="account_tr.tax_alim_kdv_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_alim_kdv_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_servis_tasimaciligi_hizmeti_ad18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_servis_tasimaciligi_hizmeti"/>
+            <field name="tax_src_id" ref="account_tr.tax_alim_kdv_dahil_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_alim_kdv_dahil_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_her_turlu_baski_ve_basim_hizmetleri_s18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_her_turlu_baski_ve_basim_hizmetleri"/>
+            <field name="tax_src_id" ref="account_tr.tax_satis_kdv_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_satis_kdv_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_her_turlu_baski_ve_basim_hizmetleri_sd18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_her_turlu_baski_ve_basim_hizmetleri"/>
+            <field name="tax_src_id" ref="account_tr.tax_satis_kdv_dahil_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_satis_kdv_dahil_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_her_turlu_baski_ve_basim_hizmetleri_a18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_her_turlu_baski_ve_basim_hizmetleri"/>
+            <field name="tax_src_id" ref="account_tr.tax_alim_kdv_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_alim_kdv_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_her_turlu_baski_ve_basim_hizmetleri_ad18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_her_turlu_baski_ve_basim_hizmetleri"/>
+            <field name="tax_src_id" ref="account_tr.tax_alim_kdv_dahil_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_alim_kdv_dahil_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_hurda_metalden_elde_edilen_kulce_teslimleri_s18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_hurda_metalden_elde_edilen_kulce_teslimleri"/>
+            <field name="tax_src_id" ref="account_tr.tax_satis_kdv_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_satis_kdv_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_hurda_metalden_elde_edilen_kulce_teslimleri_sd18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_hurda_metalden_elde_edilen_kulce_teslimleri"/>
+            <field name="tax_src_id" ref="account_tr.tax_satis_kdv_dahil_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_satis_kdv_dahil_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_hurda_metalden_elde_edilen_kulce_teslimleri_a18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_hurda_metalden_elde_edilen_kulce_teslimleri"/>
+            <field name="tax_src_id" ref="account_tr.tax_alim_kdv_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_alim_kdv_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_hurda_metalden_elde_edilen_kulce_teslimleri_ad18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_hurda_metalden_elde_edilen_kulce_teslimleri"/>
+            <field name="tax_src_id" ref="account_tr.tax_alim_kdv_dahil_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_alim_kdv_dahil_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_hurda_metalden_elde_edilenler_disindaki_bakir_cinko_demir_celik_aluminyum_s18"
+                model="account.fiscal.position.tax.template">
+            <field name="position_id"
+                   ref="fpt_8_hurda_metalden_elde_edilenler_disindaki_bakir_cinko_demir_celik_aluminyum"/>
+            <field name="tax_src_id" ref="account_tr.tax_satis_kdv_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_satis_kdv_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_hurda_metalden_elde_edilenler_disindaki_bakir_cinko_demir_celik_aluminyum_sd18"
+                model="account.fiscal.position.tax.template">
+            <field name="position_id"
+                   ref="fpt_8_hurda_metalden_elde_edilenler_disindaki_bakir_cinko_demir_celik_aluminyum"/>
+            <field name="tax_src_id" ref="account_tr.tax_satis_kdv_dahil_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_satis_kdv_dahil_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_hurda_metalden_elde_edilenler_disindaki_bakir_cinko_demir_celik_aluminyum_a18"
+                model="account.fiscal.position.tax.template">
+            <field name="position_id"
+                   ref="fpt_8_hurda_metalden_elde_edilenler_disindaki_bakir_cinko_demir_celik_aluminyum"/>
+            <field name="tax_src_id" ref="account_tr.tax_alim_kdv_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_alim_kdv_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_hurda_metalden_elde_edilenler_disindaki_bakir_cinko_demir_celik_aluminyum_ad18"
+                model="account.fiscal.position.tax.template">
+            <field name="position_id"
+                   ref="fpt_8_hurda_metalden_elde_edilenler_disindaki_bakir_cinko_demir_celik_aluminyum"/>
+            <field name="tax_src_id" ref="account_tr.tax_alim_kdv_dahil_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_alim_kdv_dahil_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_bakir_cinko_aluminyum_ve_kursun_urunlerinin_teslimi_s18"
+                model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_bakir_cinko_aluminyum_ve_kursun_urunlerinin_teslimi"/>
+            <field name="tax_src_id" ref="account_tr.tax_satis_kdv_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_satis_kdv_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_bakir_cinko_aluminyum_ve_kursun_urunlerinin_teslimi_sd18"
+                model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_bakir_cinko_aluminyum_ve_kursun_urunlerinin_teslimi"/>
+            <field name="tax_src_id" ref="account_tr.tax_satis_kdv_dahil_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_satis_kdv_dahil_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_bakir_cinko_aluminyum_ve_kursun_urunlerinin_teslimi_a18"
+                model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_bakir_cinko_aluminyum_ve_kursun_urunlerinin_teslimi"/>
+            <field name="tax_src_id" ref="account_tr.tax_alim_kdv_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_alim_kdv_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_bakir_cinko_aluminyum_ve_kursun_urunlerinin_teslimi_ad18"
+                model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_bakir_cinko_aluminyum_ve_kursun_urunlerinin_teslimi"/>
+            <field name="tax_src_id" ref="account_tr.tax_alim_kdv_dahil_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_alim_kdv_dahil_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_istisnadan_vazgecenlerin_hurda_ve_atik_teslimi_s18"
+                model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_istisnadan_vazgecenlerin_hurda_ve_atik_teslimi"/>
+            <field name="tax_src_id" ref="account_tr.tax_satis_kdv_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_satis_kdv_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_istisnadan_vazgecenlerin_hurda_ve_atik_teslimi_sd18"
+                model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_istisnadan_vazgecenlerin_hurda_ve_atik_teslimi"/>
+            <field name="tax_src_id" ref="account_tr.tax_satis_kdv_dahil_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_satis_kdv_dahil_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_istisnadan_vazgecenlerin_hurda_ve_atik_teslimi_a18"
+                model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_istisnadan_vazgecenlerin_hurda_ve_atik_teslimi"/>
+            <field name="tax_src_id" ref="account_tr.tax_alim_kdv_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_alim_kdv_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_istisnadan_vazgecenlerin_hurda_ve_atik_teslimi_ad18"
+                model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_istisnadan_vazgecenlerin_hurda_ve_atik_teslimi"/>
+            <field name="tax_src_id" ref="account_tr.tax_alim_kdv_dahil_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_alim_kdv_dahil_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_metal_plastik_lastik_kaucuk_kâgit_ve_cam_hurda_ve_atiklardan_s18"
+                model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_metal_plastik_lastik_kaucuk_kâgit_ve_cam_hurda_ve_atiklardan"/>
+            <field name="tax_src_id" ref="account_tr.tax_satis_kdv_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_satis_kdv_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_metal_plastik_lastik_kaucuk_kâgit_ve_cam_hurda_ve_atiklardan_sd18"
+                model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_metal_plastik_lastik_kaucuk_kâgit_ve_cam_hurda_ve_atiklardan"/>
+            <field name="tax_src_id" ref="account_tr.tax_satis_kdv_dahil_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_satis_kdv_dahil_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_metal_plastik_lastik_kaucuk_kâgit_ve_cam_hurda_ve_atiklardan_a18"
+                model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_metal_plastik_lastik_kaucuk_kâgit_ve_cam_hurda_ve_atiklardan"/>
+            <field name="tax_src_id" ref="account_tr.tax_alim_kdv_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_alim_kdv_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_metal_plastik_lastik_kaucuk_kâgit_ve_cam_hurda_ve_atiklardan_ad18"
+                model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_metal_plastik_lastik_kaucuk_kâgit_ve_cam_hurda_ve_atiklardan"/>
+            <field name="tax_src_id" ref="account_tr.tax_alim_kdv_dahil_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_alim_kdv_dahil_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_pamuk_tiftik_yun_ve_yapagi_ile_ham_post_ve_deri_teslimleri_s18"
+                model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_pamuk_tiftik_yun_ve_yapagi_ile_ham_post_ve_deri_teslimleri"/>
+            <field name="tax_src_id" ref="account_tr.tax_satis_kdv_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_satis_kdv_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_pamuk_tiftik_yun_ve_yapagi_ile_ham_post_ve_deri_teslimleri_sd18"
+                model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_pamuk_tiftik_yun_ve_yapagi_ile_ham_post_ve_deri_teslimleri"/>
+            <field name="tax_src_id" ref="account_tr.tax_satis_kdv_dahil_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_satis_kdv_dahil_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_pamuk_tiftik_yun_ve_yapagi_ile_ham_post_ve_deri_teslimleri_a18"
+                model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_pamuk_tiftik_yun_ve_yapagi_ile_ham_post_ve_deri_teslimleri"/>
+            <field name="tax_src_id" ref="account_tr.tax_alim_kdv_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_alim_kdv_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_pamuk_tiftik_yun_ve_yapagi_ile_ham_post_ve_deri_teslimleri_ad18"
+                model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_pamuk_tiftik_yun_ve_yapagi_ile_ham_post_ve_deri_teslimleri"/>
+            <field name="tax_src_id" ref="account_tr.tax_alim_kdv_dahil_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_alim_kdv_dahil_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_agac_ve_orman_urunleri_teslimi_s18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_agac_ve_orman_urunleri_teslimi"/>
+            <field name="tax_src_id" ref="account_tr.tax_satis_kdv_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_satis_kdv_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_agac_ve_orman_urunleri_teslimi_sd18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_agac_ve_orman_urunleri_teslimi"/>
+            <field name="tax_src_id" ref="account_tr.tax_satis_kdv_dahil_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_satis_kdv_dahil_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_agac_ve_orman_urunleri_teslimi_a18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_agac_ve_orman_urunleri_teslimi"/>
+            <field name="tax_src_id" ref="account_tr.tax_alim_kdv_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_alim_kdv_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_agac_ve_orman_urunleri_teslimi_ad18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_agac_ve_orman_urunleri_teslimi"/>
+            <field name="tax_src_id" ref="account_tr.tax_alim_kdv_dahil_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_alim_kdv_dahil_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_yuk_tasimaciligi_hizmeti_s18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_yuk_tasimaciligi_hizmeti"/>
+            <field name="tax_src_id" ref="account_tr.tax_satis_kdv_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_satis_kdv_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_yuk_tasimaciligi_hizmeti_sd18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_yuk_tasimaciligi_hizmeti"/>
+            <field name="tax_src_id" ref="account_tr.tax_satis_kdv_dahil_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_satis_kdv_dahil_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_yuk_tasimaciligi_hizmeti_a18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_yuk_tasimaciligi_hizmeti"/>
+            <field name="tax_src_id" ref="account_tr.tax_alim_kdv_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_alim_kdv_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_yuk_tasimaciligi_hizmeti_ad18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_yuk_tasimaciligi_hizmeti"/>
+            <field name="tax_src_id" ref="account_tr.tax_alim_kdv_dahil_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_alim_kdv_dahil_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_ticari_reklam_hizmetleri_s18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_ticari_reklam_hizmetleri"/>
+            <field name="tax_src_id" ref="account_tr.tax_satis_kdv_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_satis_kdv_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_ticari_reklam_hizmetleri_sd18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_ticari_reklam_hizmetleri"/>
+            <field name="tax_src_id" ref="account_tr.tax_satis_kdv_dahil_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_satis_kdv_dahil_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_ticari_reklam_hizmetleri_a18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_ticari_reklam_hizmetleri"/>
+            <field name="tax_src_id" ref="account_tr.tax_alim_kdv_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_alim_kdv_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_ticari_reklam_hizmetleri_ad18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_ticari_reklam_hizmetleri"/>
+            <field name="tax_src_id" ref="account_tr.tax_alim_kdv_dahil_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_alim_kdv_dahil_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_demir-celik_urunlerinin_teslimi_s18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_demir-celik_urunlerinin_teslimi"/>
+            <field name="tax_src_id" ref="account_tr.tax_satis_kdv_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_satis_kdv_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_demir-celik_urunlerinin_teslimi_sd18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_demir-celik_urunlerinin_teslimi"/>
+            <field name="tax_src_id" ref="account_tr.tax_satis_kdv_dahil_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_satis_kdv_dahil_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_demir-celik_urunlerinin_teslimi_a18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_demir-celik_urunlerinin_teslimi"/>
+            <field name="tax_src_id" ref="account_tr.tax_alim_kdv_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_alim_kdv_18_t_10_10"/>
+        </record>
+        <record id="fptt_8_demir-celik_urunlerinin_teslimi_ad18" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fpt_8_demir-celik_urunlerinin_teslimi"/>
+            <field name="tax_src_id" ref="account_tr.tax_alim_kdv_dahil_18"/>
+            <field name="tax_dest_id" ref="account_tr.tax_alim_kdv_dahil_18_t_10_10"/>
+        </record>
+    </data>
+</odoo>

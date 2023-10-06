@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="fpt_ithalde_odenen_kdv" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">İthalde Ödenen KDV</field>
+            <field name="code">110</field>
+            <field name="note">İthalde Ödenen KDV</field>
+        </record>
+
+    </data>
+</odoo>

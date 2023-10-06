@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_account_position_form_code" model="ir.ui.view">
+            <field name="name">account.fiscal.position.form.code</field>
+            <field name="model">account.fiscal.position</field>
+            <field name="inherit_id" ref="account.view_account_position_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='name']" position="after">
+                    <field name="code"/>
+                    <field name="code2"/>
+                    <field name="code3"/>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="view_account_position_tree_code" model="ir.ui.view">
+            <field name="name">account.fiscal.position.tree.code</field>
+            <field name="model">account.fiscal.position</field>
+            <field name="inherit_id" ref="account.view_account_position_tree"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='name']" position="after">
+                    <field name="code"/>
+                    <field name="code2"/>
+                    <field name="code3"/>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="view_account_position_filter" model="ir.ui.view">
+            <field name="name">account.fiscal.position.filter</field>
+            <field name="model">account.fiscal.position</field>
+            <field name="inherit_id" ref="account.view_account_position_filter"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='name']" position="after">
+                    <field name="code"/>
+                </xpath>
+            </field>
+        </record>
+
+      <record id="view_account_position_form_category" model="ir.ui.view">
+          <field name="name">account.fiscal.position.form.category</field>
+          <field name="model">account.fiscal.position</field>
+          <field name="inherit_id" ref="account.view_account_position_form"/>
+          <field name="arch" type="xml">
+              <data>
+                  <xpath expr="//field[@name='name']" position="after">
+                      <field name="category_id"/>
+                  </xpath>
+                </data>
+          </field>
+      </record>
+      <record id="view_account_position_tree_code" model="ir.ui.view">
+          <field name="name">account.fiscal.position.tree.code</field>
+          <field name="model">account.fiscal.position</field>
+          <field name="inherit_id" ref="account.view_account_position_tree"/>
+          <field name="arch" type="xml">
+              <data>
+                  <xpath expr="//field[@name='name']" position="after">
+                      <field name="category_id"/>
+                  </xpath>
+                </data>
+          </field>
+      </record>
+      
+    </data>
+</odoo>

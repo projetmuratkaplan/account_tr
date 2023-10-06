@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="fpt_mal_ihracati" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Mal İhracatı</field>
+            <field name="code">301</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">11/1-a Mal İhracatı</field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_hizmet_ihracati" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Hizmet İhracatı</field>
+            <field name="code">302</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">11/1-a Hizmet İhracatı</field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_roaming_hizmetleri" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Roaming İhracatı</field>
+            <field name="code">303</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">11/1-a Roaming Hizmetleri</field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_deniz_hava_ve_demiryolu_teslim_insaa_tadil_bakim_onarim"
+                model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Deniz, Hava ve Demiryolu Taşıma Araçlarının Teslimi ile İnşa, Tadil,Bakım ve Onarımları
+            </field>
+            <field name="code">304</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Deniz, Hava ve Demiryolu Taşıma Araçlarının Teslimi ile İnşa, Tadil,Bakım ve Onarımları
+            </field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_deniz_ve_hava_arac_liman_meydan_hizmet" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Deniz ve Hava Taşıma Araçları İçin Liman ve Hava Meydanlarında Yapılan Hizmetler</field>
+            <field name="code">305</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Deniz ve Hava Taşıma Araçları İçin Liman ve Hava Meydanlarında Yapılan Hizmetler</field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_petrol_arama_insaa_teslim_ve_hizmet" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Petrol Aramaları ve Petrol Boru Hatlarının İnşa ve Modernizasyonuna İlişkin Yapılan
+                Teslim ve Hizmetler
+            </field>
+            <field name="code">306</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Petrol Aramaları ve Petrol Boru Hatlarının İnşa ve Modernizasyonuna İlişkin Yapılan
+                Teslim ve Hizmetler
+            </field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_maden_arama_teslim_ve_hizmetler" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Maden Arama, Altın, Gümüş veya Platin Madenleri İçin İşletme, Zenginleştirme ve Rafinaj
+                Faaliyetlerine İlişkin Teslim ve Hizmetler [KDVGUT-(II/B-4)]
+            </field>
+            <field name="code">307</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Maden Arama, Altın, Gümüş veya Platin Madenleri İçin İşletme, Zenginleştirme ve Rafinaj
+                Faaliyetlerine İlişkin Teslim ve Hizmetler [KDVGUT-(II/B-4)]
+            </field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_tesvikli_yatirim_mallari_teslimi" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Teşvikli Yatırım Mallarının Teslimi</field>
+            <field name="code">308</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Teşvikli Yatırım Mallarının Teslimi</field>
+        </record>
+        <record id="fpt_tesvikli_limanlara_baglanti" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Limanlara Bağlantı Sağlayan Demiryolu Hatları ile Liman ve Hava Meydanlarının İnşası,
+                Yenilenmesi ve Genişletilmesi
+            </field>
+            <field name="code">309</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Limanlara Bağlantı Sağlayan Demiryolu Hatları ile Liman ve Hava Meydanlarının İnşası,
+                Yenilenmesi ve Genişletilmesi
+            </field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_ulusal_guvenlik_amacli_teslim_ve_hizmetler" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Ulusal Güvenlik Amaçlı Teslim ve Hizmetler</field>
+            <field name="code">310</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Ulusal Güvenlik Amaçlı Teslim ve Hizmetler</field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_uluslararasi_tasimacilik" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Uluslararası Taşımacılık</field>
+            <field name="code">311</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">14/1 Uluslararası Taşımacılık</field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_diplomatik_organ_ve_misyonlara_teslim_ve_hizmetler" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Diplomatik Organ ve Misyonlara Yapılan Teslim ve Hizmetler</field>
+            <field name="code">312</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Diplomatik Organ ve Misyonlara Yapılan Teslim ve Hizmetler</field>
+        </record>
+        <record id="fpt_uluslararasi_kuruluslara_yapilan_teslim_ve_hizmetler" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Uluslararası Kuruluşlara Yapılan Teslim ve Hizmetler</field>
+            <field name="code">313</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Uluslararası Kuruluşlara Yapılan Teslim ve Hizmetler</field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_usulune_gore_yururluge_girmis_uluslararasi_anlasmlar_kapsamindaki_istisnalar"
+                model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Usulüne Göre Yürürlüğe Girmiş Uluslararası Anlaşmalar Kapsamındaki İstisnalar(İade Hakkı
+                Tanınan)
+            </field>
+            <field name="code">314</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Usulüne Göre Yürürlüğe Girmiş Uluslararası Anlaşmalar Kapsamındaki İstisnalar(İade Hakkı
+                Tanınan)
+            </field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_ihrac_konusu_esyayi_tasiyan_kamyon_cekici_motorin_teslimleri"
+                model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">İhraç Konusu Eşyayı Taşıyan Kamyon, Çekici ve Yarı Römorklara Yapılan Motorin
+                Teslimleri
+            </field>
+            <field name="code">315</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">İhraç Konusu Eşyayı Taşıyan Kamyon, Çekici ve Yarı Römorklara Yapılan Motorin
+                Teslimleri
+            </field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_serbest_bolge_icin_yapilan_fason_hizmetler" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Serbest Bölgelerdeki Müşteriler İçin Yapılan Fason Hizmetler</field>
+            <field name="code">316</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">11/1-a Serbest Bölgelerdeki Müşteriler İçin Yapılan Fason Hizmetler</field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_engellilerin_egitimleri_mesleki_gunluk_yasam_arac_gerec_bilgisayar_programlari"
+                model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Engellilerin Eğitimleri, Meslekleri ve Günlük Yaşamlarına İlişkin Araç-Gereç ve
+                Bilgisayar Programları
+            </field>
+            <field name="code">317</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Engellilerin Eğitimleri, Meslekleri ve Günlük Yaşamlarına İlişkin Araç-Gereç ve
+                Bilgisayar Programları
+            </field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_3996_3359_652_sayili_kanuna_gore" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">3996 Sayılı Kanuna Göre Yap-İşlet-Devret Modeli Çerçevesinde Gerçekleştirilecek Projeler,
+                3359 Sayılı Kanuna Göre Kiralama Karşılığı Yaptırılan Sağlık Tesislerine İlişkin Projeler ve 652 Sayılı
+                Kanun Hükmünde Kararnameye Göre Kiralama Karşılığı Yaptırılan Eğitim Öğretim Tesislerine İlişkin
+                Projelere İlişkin Teslim ve Hizmetler.
+            </field>
+            <field name="code">318</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">3996 Sayılı Kanuna Göre Yap-İşlet-Devret Modeli Çerçevesinde Gerçekleştirilecek Projeler,
+                3359 Sayılı Kanuna Göre Kiralama Karşılığı Yaptırılan Sağlık Tesislerine İlişkin Projeler ve 652 Sayılı
+                Kanun Hükmünde Kararnameye Göre Kiralama Karşılığı Yaptırılan Eğitim Öğretim Tesislerine İlişkin
+                Projelere İlişkin Teslim ve Hizmetler.
+            </field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_baskanlik_merkez_teskilatina_yaplan_arac_teslimleri" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Başbakanlık Merkez Teşkilatına Yapılan Araç Teslimleri</field>
+            <field name="code">319</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Başbakanlık Merkez Teşkilatına Yapılan Araç Teslimleri</field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_ismep_kapsaminda_teslim_ve_hizmetler" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">İSMEP Kapsamında, İstanbul İl Özel İdaresine Bağlı Olarak Faaliyet Gösteren İstanbul
+                Proje Koordinasyon Birimine Yapılacak Teslim ve Hizmetler
+            </field>
+            <field name="code">320</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">İSMEP Kapsamında, İstanbul İl Özel İdaresine Bağlı Olarak Faaliyet Gösteren İstanbul
+                Proje Koordinasyon Birimine Yapılacak Teslim ve Hizmetler
+            </field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_birlesmis_milletler_mal_ve_hizmet_ifalari" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Birleşmiş Milletler (BM) ile Kuzey Atlantik Antlaşması Teşkilatı(NATO) Temsilcilikleri ve
+                Bu Teşkilatlara Bağlı Program, Fon ve Özel İhtisas Kuruluşları ile İktisadi İşbirliği ve Kalkınma
+                Teşkilatına(OECD) Resmi Kullanımları İçin Yapılacak Mal Teslimi ve Hizmet İfaları, Bunların Sosyal ve
+                Ekonomik Yardım Amacıyla Bedelsiz Olarak Yapacakları Mal Teslimi ve Hizmet İfaları ile İlgili Bunlara
+                Yapılan Mal Teslimi ve Hizmet İfaları
+            </field>
+            <field name="code">321</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Birleşmiş Milletler (BM) ile Kuzey Atlantik Antlaşması Teşkilatı(NATO) Temsilcilikleri ve
+                Bu Teşkilatlara Bağlı Program, Fon ve Özel İhtisas Kuruluşları ile İktisadi İşbirliği ve Kalkınma
+                Teşkilatına(OECD) Resmi Kullanımları İçin Yapılacak Mal Teslimi ve Hizmet İfaları, Bunların Sosyal ve
+                Ekonomik Yardım Amacıyla Bedelsiz Olarak Yapacakları Mal Teslimi ve Hizmet İfaları ile İlgili Bunlara
+                Yapılan Mal Teslimi ve Hizmet İfaları
+            </field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_turkiyede_ikamet_etmeyenlere_yapilan_teslimler" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Türkiye'de İkamet Etmeyenlere Özel Fatura ile Yapılan Teslimler (Bavul Ticareti)</field>
+            <field name="code">322</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">11/1-a Türkiye'de İkamet Etmeyenlere Özel Fatura ile Yapılan Teslimler (Bavul Ticareti)
+            </field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_5300_sayili_kanuna_gore_duzenlenen" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">5300 Sayılı Kanuna Göre Düzenlenen Ürün Senetlerinin İhtisas/Ticaret Borsaları
+                Aracılığıyla İlk Teslimi
+            </field>
+            <field name="code">323</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">5300 Sayılı Kanuna Göre Düzenlenen Ürün Senetlerinin İhtisas/Ticaret Borsaları
+                Aracılığıyla İlk Teslimi
+            </field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+
+        <record id="fpt_turkiye_kizilay_dernegi" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Türkiye Kızılay Derneğine Yapılan Teslim ve Hizmetler ile Türkiye Kızılay Derneğinin
+                Teslim ve Hizmetleri
+            </field>
+            <field name="code">324</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Türkiye Kızılay Derneğine Yapılan Teslim ve Hizmetler ile Türkiye Kızılay Derneğinin
+                Teslim ve Hizmetleri
+            </field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_yem_teslimleri" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Yem Teslimleri</field>
+            <field name="code">325</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Yem Teslimleri</field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_gida_tarim_ve_hayvancilik" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Gıda, Tarım ve Hayvancılık Bakanlığı Tarafından Tescil Edilmiş Gübrelerin Teslimi</field>
+            <field name="code">326</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Gıda, Tarım ve Hayvancılık Bakanlığı Tarafından Tescil Edilmiş Gübrelerin Teslimi</field>
+        </record>
+        <record id="fpt_gida_tarim_ve_hayvancilik_hammadde_gubre_ureticilerine"
+                model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Gıda, Tarım ve Hayvancılık Bakanlığı Tarafından Tescil Edilmiş Gübrelerin İçeriğinde
+                Bulunan Hammaddelerin Gübre Üreticilerine Teslimi
+            </field>
+            <field name="code">327</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Gıda, Tarım ve Hayvancılık Bakanlığı Tarafından Tescil Edilmiş Gübrelerin İçeriğinde
+                Bulunan Hammaddelerin Gübre Üreticilerine Teslimi
+            </field>
+        </record>
+        <record id="fpt_konut_veya_isyeri_teslimleri" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Konut veya İş Yeri Teslimleri</field>
+            <field name="code">328</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Konut veya İş Yeri Teslimleri</field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_fatih_projesi_kapsaminda" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">FATİH Projesi Kapsamında Milli Eğitim Bakanlığına Yapılacak Mal Teslimi ve Hizmet
+                İfaları
+            </field>
+            <field name="code">329</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">FATİH Projesi Kapsamında Milli Eğitim Bakanlığına Yapılacak Mal Teslimi ve Hizmet
+                İfaları
+            </field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_organize_sanayi_bolgeleri_ile_kucuk_sanayi_siteleri" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Organize Sanayi Bölgeleri ile Küçük Sanayi Sitelerinin İnşasına İlişkin Teslim ve
+                Hizmetler
+            </field>
+            <field name="code">330</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Organize Sanayi Bölgeleri ile Küçük Sanayi Sitelerinin İnşasına İlişkin Teslim ve
+                Hizmetler
+            </field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_ar_ge_yenilik_ve_tasarim_faaliyetlerinde_kullanilmak" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Ar-Ge, Yenilik ve Tasarım Faaliyetlerinde Kullanılmak Üzere Yapılan Yeni Makina ve
+                Teçhizat Teslimlerinde İstisna
+            </field>
+            <field name="code">331</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Ar-Ge, Yenilik ve Tasarım Faaliyetlerinde Kullanılmak Üzere Yapılan Yeni Makina ve
+                Teçhizat Teslimlerinde İstisna
+            </field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_imalat_sanayiinde_kullanilmak_uzere_yapilan_yeni_makina"
+                model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">İmalat Sanayiinde Kullanılmak Üzere Yapılan Yeni Makina ve Teçhizat Teslimlerinde
+                İstisna
+            </field>
+            <field name="code">332</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">İmalat Sanayiinde Kullanılmak Üzere Yapılan Yeni Makina ve Teçhizat Teslimlerinde
+                İstisna
+            </field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_genel_ve_ozel_butceli_kamu_idarelerine_il_ozel_idarelerine_belediyelere"
+                model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Genel ve Özel Bütçeli Kamu İdarelerine, İl Özel İdarelerine, Belediyelere ve Köylere
+                Bağışlanan Tesislerin İnşasına İlişkin İstisna
+            </field>
+            <field name="code">333</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Genel ve Özel Bütçeli Kamu İdarelerine, İl Özel İdarelerine, Belediyelere ve Köylere
+                Bağışlanan Tesislerin İnşasına İlişkin İstisna
+            </field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_yabancilara_verilen_saglik_hizmetlerinde_istisna" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Yabancılara Verilen Sağlık Hizmetlerinde İstisna</field>
+            <field name="code">334</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Yabancılara Verilen Sağlık Hizmetlerinde İstisna</field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_basili_kitap_ve_sureli_yayinlarin_teslimleri" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Basılı Kitap ve Süreli Yayınların Teslimleri</field>
+            <field name="code">335</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Basılı Kitap ve Süreli Yayınların Teslimleri</field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_uefa_musabakalari_kapsaminda_yapilacak_teslim_ve_hizmetler"
+                model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">UEFA Müsabakaları Kapsamında Yapılacak Teslim ve Hizmetler</field>
+            <field name="code">336</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">UEFA Müsabakaları Kapsamında Yapılacak Teslim ve Hizmetler</field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_turkakim_gaz_boru_hatti_projesine_iliskin" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">TürkAkım Gaz Boru Hattı Projesine İlişkin Anlaşmanın (9/h) Maddesi Kapsamındaki Gaz
+                Taşıma Hizmetleri
+            </field>
+            <field name="code">337</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">TürkAkım Gaz Boru Hattı Projesine İlişkin Anlaşmanın (9/h) Maddesi Kapsamındaki Gaz
+                Taşıma Hizmetleri
+            </field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_350_digerleri" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">Diğerleri</field>
+            <field name="code">350</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">Diğerleri</field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+        <record id="fpt_istisna_olmayan_diger" model="account.fiscal.position.template">
+            <field name="chart_template_id" ref="account_tr.l10ntr_tek_duzen_hesap"/>
+            <field name="name">İstisna Olmayan Diğer</field>
+            <field name="code">351</field>
+            <field name="category_id" ref="account_tr.fiscal_position_category_exemption"/>
+            <field name="note">İstisna Olmayan Diğer</field>
+            <field name="country_id" ref="base.tr"/>
+        </record>
+
+    </data>
+</odoo>
